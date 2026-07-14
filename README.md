@@ -40,6 +40,10 @@ target/legal-data/
 | `constitutional-readouts/diff-readout.json` | RED/ORANGE drift summary across classified terms |
 | `inject-bindings/constitution-inject-bindings.json` | Parser + term identity kits with `fabrication_policy: PROHIBITED` |
 | `project-structure.json` | Completion manifest + canonical paths + cron job IDs |
+| `source-registry.json` | Source registry for Gutenberg/Webster provenance |
+| `sovereign-constitutional-crosswalk.md` | Sovereign-to-constitutional crosswalk notes |
+| `tmp_scripts/` | Builder/probe/rebuild/patch scripts for artifacts |
+| `webster-1913-sections/` | Cached 1913 Webster HTML sections: pg661–pg668 |
 
 </details>
 
