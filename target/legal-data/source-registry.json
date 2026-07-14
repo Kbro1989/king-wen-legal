@@ -1,0 +1,255 @@
+{
+  "corpus": "constitutional-legal-data",
+  "analysis_type": "permanent comparative analysis across hundreds of years of 1 country's constitutional validity",
+  "spine": {
+    "earliest_source_date": "1789",
+    "earliest_source_citation": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+    "earliest_source_gutenberg_id": "45738",
+    "earliest_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md"
+  },
+  "tail": {
+    "latest_dictionary_date": "1913",
+    "latest_dictionary_citation": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+    "latest_dictionary_gutenberg_ids": ["664", "669"],
+    "latest_dictionary_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md"
+  },
+  "sources": [
+    {
+      "id": "webster-1789",
+      "title": "Dissertations on the English Language",
+      "author": "Noah Webster",
+      "year": "1789",
+      "publisher": "Isaiah Thomas and Company, Boston",
+      "gutenberg_id": "45738",
+      "file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "role": "origin_spine",
+      "coverage": ["sovereignty", "commerce", "militia", "treason", "due process", "amendment", "separation of powers"]
+    },
+    {
+      "id": "webster-1913",
+      "title": "Webster Revised Unabridged Dictionary",
+      "author": "Noah Webster / C. & G. Merriam Co.",
+      "year": "1913",
+      "publisher": "C. & G. Merriam Co., Springfield, Mass.",
+      "gutenberg_id": "664",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "role": "modern_copy_tail",
+      "coverage": ["sovereign", "sovereignty", "commerce", "militia", "treason", "due process", "warrant", "probable", "seizure", "search", "cruel", "unusual", "bail", "fine", "counsel", "witness", "confront", "compulsory", "assembly", "petition", "establishment", "bear", "arms", "amendment", "legislature", "executive", "judicial", "supreme", "federal", "state", "jury", "oath", "affirmation", "ratify", "convention", "emolument", "treaty", "impeachment", "levying"]
+    },
+    {
+      "id": "constitution-1787",
+      "title": "United States Constitution",
+      "author": "Constitutional Convention",
+      "year": "1787",
+      "publisher": "United States",
+      "gutenberg_id": null,
+      "file": null,
+      "role": "constitutional_anchor",
+      "coverage": ["Article I", "Article II", "Article III", "Article IV", "Article V", "Sixth Amendment", "Eighth Amendment", "commerce", "treason", "bill of attainder", "ex post facto", "habeas corpus"]
+    },
+    {
+      "id": "bill-of-rights-1791",
+      "title": "United States Bill of Rights",
+      "author": "First Congress",
+      "year": "1791",
+      "publisher": "United States",
+      "gutenberg_id": null,
+      "file": null,
+      "role": "constitutional_anchor",
+      "coverage": ["First Amendment", "Second Amendment", "Fourth Amendment", "Fifth Amendment", "Sixth Amendment", "Eighth Amendment"]
+    },
+    {
+      "id": "fourteenth-amendment-1868",
+      "title": "Fourteenth Amendment to the United States Constitution",
+      "author": "Thirty-ninth Congress",
+      "year": "1868",
+      "publisher": "United States",
+      "gutenberg_id": null,
+      "file": null,
+      "role": "constitutional_anchor",
+      "coverage": ["due process", "equal protection", "citizenship", "naturalization", "state action"]
+    },
+    {
+      "id": "eo-digital-assets-2025",
+      "title": "Strengthening American Leadership in Digital Financial Technology",
+      "author": "Executive Office of the President",
+      "year": "2025",
+      "publisher": "White House",
+      "gutenberg_id": null,
+      "file": null,
+      "role": "present_proposition",
+      "coverage": ["CBDC ban", "stablecoin promotion", "digital asset stockpile", "monetary sovereignty"]
+    },
+    {
+      "id": "hr1919-2025",
+      "title": "Anti-CBDC Surveillance State Act",
+      "author": "U.S. House of Representatives",
+      "year": "2025",
+      "publisher": "Congress",
+      "gutenberg_id": null,
+      "file": null,
+      "role": "present_proposition",
+      "coverage": ["CBDC ban", "monetary sovereignty", "surveillance state"]
+    },
+    {
+      "id": "nasdaq-rule-5215-2026",
+      "title": "NASDAQ Rule 5215 — American Depositary Receipts of Canadian Companies",
+      "author": "NASDAQ",
+      "year": "2026",
+      "publisher": "NASDAQ Listing Center",
+      "gutenberg_id": null,
+      "file": null,
+      "role": "present_proposition",
+      "coverage": ["securities regulation", "Canadian ADRs", "pattern artifact"]
+    },
+    {
+      "id": "florida-hb999-2025",
+      "title": "Florida HB 999 / SB 1588 — Gold and Silver Legal Tender",
+      "author": "Florida Legislature",
+      "year": "2025",
+      "publisher": "State of Florida",
+      "gutenberg_id": null,
+      "file": null,
+      "role": "present_proposition",
+      "coverage": ["gold legal tender", "silver legal tender", "state monetary sovereignty", "electronic payment rails"]
+    },
+    {
+      "id": "west-virginia-sb413-2026",
+      "title": "West Virginia SB 413 — Transactional Gold and Silver Act",
+      "author": "West Virginia Legislature",
+      "year": "2026",
+      "publisher": "State of West Virginia",
+      "gutenberg_id": null,
+      "file": null,
+      "role": "present_proposition",
+      "coverage": ["gold depository", "silver depository", "state monetary sovereignty", "electronic transfer"]
+    },
+    {
+      "id": "usc18-922g",
+      "title": "18 U.S.C. § 922(g)",
+      "author": "U.S. Congress",
+      "year": "1968",
+      "publisher": "United States Code",
+      "gutenberg_id": null,
+      "file": null,
+      "role": "statute",
+      "coverage": ["firearms prohibition", "militia", "treason disarmament", "loyalist disarmament"]
+    },
+    {
+      "id": "usc5-706",
+      "title": "5 U.S.C. § 706",
+      "author": "U.S. Congress",
+      "year": "1946",
+      "publisher": "United States Code",
+      "gutenberg_id": null,
+      "file": null,
+      "role": "statute",
+      "coverage": ["administrative state", "judicial review", "agency rulemaking"]
+    },
+    {
+      "id": "uscode-31-5102",
+      "title": "31 U.S.C. § 5102",
+      "author": "U.S. Congress",
+      "year": "1982",
+      "publisher": "United States Code",
+      "gutenberg_id": null,
+      "file": null,
+      "role": "statute",
+      "coverage": ["monetary sovereignty", "Treasury", "coinage"]
+    }
+  ],
+  "compiled_artifacts": [
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\constitutional-semantic-graph.html",
+      "type": "frontend",
+      "status": "serving",
+      "verification": "ad-hoc PASS",
+      "description": "Live semantic graph front-end; rebuilt after topology/monetary-sovereignty/5215-phantom changes."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\graph_data.json",
+      "type": "data",
+      "status": "serving",
+      "verification": "loaded by frontend",
+      "description": "Graph dataset: 102 nodes, 118 edges, 24 state rows, 101 sources. Includes 5215_phantom and monetary sovereignty nodes."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\graph_check.js",
+      "type": "build_artifact",
+      "status": "serving",
+      "verification": "JS syntax OK",
+      "description": "Front-end build-time integrity check for constitutional-semantic-graph.html."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\source-registry.json",
+      "type": "data",
+      "status": "serving",
+      "verification": "ad-hoc PASS",
+      "description": "Single authoritative manifest for all legal-data sources, spine/tail, and compiled artifact inventory."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\webster-gutenberg-constitution-cross-reference.json",
+      "type": "data",
+      "status": "serving",
+      "verification": "ad-hoc PASS",
+      "description": "Origin-vs-present interpretation matrix with temporal spine/tail for 13 constitutional terms."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\webster-constitutional-definitions-learn-extract.jsonl",
+      "type": "data",
+      "status": "serving",
+      "verification": "legacy extract",
+      "description": "Older learn-extract format; superseded by webster-gutenberg-constitution-cross-reference.json for /learn ingestion."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\constitutional-graph-reference.md",
+      "type": "reference",
+      "status": "serving",
+      "verification": "pointer document",
+      "description": "Artifact pointer for legal-data skill integration."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\cloudflare-account-reference.md",
+      "type": "reference",
+      "status": "serving",
+      "verification": "redacted inventory",
+      "description": "Redacted account inventory; separate domain from constitutional graph per user separation rule."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\.rustc_info.json",
+      "type": "build_artifact",
+      "status": "serving",
+      "verification": "rustc metadata",
+      "description": "Rust compiler metadata for constitutional-graph-tool binary rebuild."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\CACHEDIR.TAG",
+      "type": "build_artifact",
+      "status": "serving",
+      "verification": "cargo cache marker",
+      "description": "Cargo cache directory marker; required for reproducible Rust builds."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\debug\\deps\\*.rlib",
+      "type": "build_artifact",
+      "status": "serving",
+      "verification": "compiled rust dependencies",
+      "description": "Compiled Rust dependency artifacts. Status: serving if rebuild is needed; regression only if front-end/binary is broken and unused."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\debug\\deps\\*.rmeta",
+      "type": "build_artifact",
+      "status": "serving",
+      "verification": "compiled rust metadata",
+      "description": "Rust crate metadata for incremental compilation. Serving if build is active."
+    },
+    {
+      "path": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\debug\\deps\\*.d",
+      "type": "build_artifact",
+      "status": "serving",
+      "verification": "dependency depfiles",
+      "description": "Cargo depfile outputs for incremental rebuild tracking."
+    }
+  ]
+}
