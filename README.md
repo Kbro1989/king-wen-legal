@@ -241,6 +241,24 @@ python3 target/legal-data/tmp_scripts/verify_skill_cluster.py
 
 All verifications are ad-hoc and cleaned up after execution.
 
+## Dependency flow
+
+```
+King Wen immutable tables
+    -> emotional_engine.py / collapse_full_128(output)
+        -> 5-axis vector + inject_site payload
+            -> OpenJarvis Cartesia adapter / sidecar
+                -> Voicebox training payloads
+                    -> profiles.py / generation.py / personality.py
+```
+
+**Direction:** King Wen owns the method/state truth. Voicebox is downstream training consumer. The bridge is payload-shaped, not direct imports.
+
+## Known blockers
+
+- `test_collapse_full_1024.py` asserts `total_resolved == 1024`, but current engine returns `512` resolved states. This requires either test alignment or engine expansion; do not change engine behavior without explicit approval.
+- `test_progressive_intents.py` is diagnostic-only because consensus is locked across slider values.
+
 ---
 
 ## Status
