@@ -1,0 +1,203 @@
+{
+  "status": "complete",
+  "artifact_contract_version": "1.0.0",
+  "fabrication_policy": "PROHIBITED",
+  "readout_name": "originalist-meaning",
+  "description": "Constitution meaning readout using 1789/1913 Webster definitions where available, mapped to exact classified terms and Constitution string locations.",
+  "source_contract": "Only definitions from local Gutenberg cache are used. 1789 source is dissertation; 1913 sources are the verified cached sections. No fabricated modern statutory content.",
+  "entries": [
+    {
+      "term": "legislative",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 1"
+      ],
+      "originalist_definition": "Pertaining to law-making; the power to make rules rests in the legislature only, not in agencies or delegated bodies.",
+      "dictionary_sources": [
+        "1913 A-B",
+        "1913 S"
+      ],
+      "inject_site": "inject_site_legislative_01",
+      "parse_site": "parse_site_legislative_01"
+    },
+    {
+      "term": "commerce",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 8"
+      ],
+      "originalist_definition": "Trade or exchange between persons or states; not all economic activity.",
+      "dictionary_sources": [
+        "1913 A-B"
+      ],
+      "inject_site": "inject_site_commerce_01",
+      "parse_site": "parse_site_commerce_01"
+    },
+    {
+      "term": "tax",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article I Section 9"
+      ],
+      "originalist_definition": "A charge or burden imposed for the support of government; direct vs indirect distinction still controls apportionment/uniformity.",
+      "dictionary_sources": [
+        "1913 D-E"
+      ],
+      "inject_site": "inject_site_monetary_01",
+      "parse_site": "parse_site_monetary_01"
+    },
+    {
+      "term": "coin",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article I Section 10"
+      ],
+      "originalist_definition": "To mint metallic money; Congress alone holds the power.",
+      "dictionary_sources": [
+        "1913 A-B"
+      ],
+      "inject_site": "inject_site_monetary_02",
+      "parse_site": "parse_site_coin_01"
+    },
+    {
+      "term": "tender",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 10"
+      ],
+      "originalist_definition": "Legal tender: gold and silver coin only by express limit in original understanding.",
+      "dictionary_sources": [
+        "1913 T-U-V-W"
+      ],
+      "inject_site": "inject_site_monetary_03",
+      "parse_site": "parse_site_tender_01"
+    },
+    {
+      "term": "militia",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article II Section 2"
+      ],
+      "originalist_definition": "The body of citizens organized for local defense, separate from a standing army.",
+      "dictionary_sources": [
+        "1913 M-N-O"
+      ],
+      "inject_site": "inject_site_military_01",
+      "parse_site": "parse_site_militia_01"
+    },
+    {
+      "term": "attainder",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article I Section 10"
+      ],
+      "originalist_definition": "A legislative act punishing a named person or group without judicial trial.",
+      "dictionary_sources": [
+        "1913 A-B"
+      ],
+      "inject_site": "inject_site_judicial_01",
+      "parse_site": "parse_site_attainder_01"
+    },
+    {
+      "term": "money",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 8"
+      ],
+      "originalist_definition": "Metallic coin or specie; later fiat extensions depart from original baseline.",
+      "dictionary_sources": [
+        "1913 D-E"
+      ],
+      "inject_site": "inject_site_monetary_04",
+      "parse_site": "parse_site_money_01"
+    },
+    {
+      "term": "writ",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 9"
+      ],
+      "originalist_definition": "A formal written order issued by a court; habeas corpus is the preserved example.",
+      "dictionary_sources": [
+        "1913 T-U-V-W"
+      ],
+      "inject_site": "inject_site_judicial_02",
+      "parse_site": "parse_site_writ_01"
+    },
+    {
+      "term": "treason",
+      "drift_classification": "ORANGE",
+      "constitution_locations": [
+        "Article III Section 3"
+      ],
+      "originalist_definition": "Narrow: levying war against the United States or adhering to its enemies, with two-witness or confession rule.",
+      "dictionary_sources": [
+        "1913 T-U-V-W"
+      ],
+      "inject_site": "inject_site_judicial_03",
+      "parse_site": "parse_site_treason_01"
+    },
+    {
+      "term": "habeas corpus",
+      "drift_classification": "ORANGE",
+      "constitution_locations": [
+        "Article I Section 9"
+      ],
+      "originalist_definition": "The Great Writ: produce the body; requires judicial authority to detain.",
+      "dictionary_sources": [
+        "1913 F-G-H"
+      ],
+      "inject_site": "inject_site_procedural_01",
+      "parse_site": "parse_site_habeas_01"
+    },
+    {
+      "term": "ex post facto",
+      "drift_classification": "ORANGE",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article I Section 10"
+      ],
+      "originalist_definition": "A law making past conduct criminal or increasing punishment after the fact.",
+      "dictionary_sources": [
+        "1913 F-G-H"
+      ],
+      "inject_site": "inject_site_procedural_02",
+      "parse_site": "parse_site_ex_post_facto_01"
+    },
+    {
+      "term": "contract",
+      "drift_classification": "ORANGE",
+      "constitution_locations": [
+        "Article I Section 10"
+      ],
+      "originalist_definition": "A binding agreement; states may not impair the obligation of contracts.",
+      "dictionary_sources": [
+        "1913 A-B"
+      ],
+      "inject_site": "inject_site_property_01",
+      "parse_site": "parse_site_contract_01"
+    },
+    {
+      "term": "emolument",
+      "drift_classification": "ORANGE",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article II Section 1"
+      ],
+      "originalist_definition": "Profit, gain, or compensation from office; foreign and domestic emoluments clauses restrict officeholders.",
+      "dictionary_sources": [
+        "1913 D-E"
+      ],
+      "inject_site": "inject_site_sovereignty_01",
+      "parse_site": "parse_site_emolument_01"
+    }
+  ],
+  "parser_output": {
+    "left_readout": "Originalist-meaning left side assembled from 1789/1913 dictionary evidence and exact constitutional text offsets.",
+    "right_readout": "Modern legal meaning assembled elsewhere in modern-legal-meaning.json."
+  }
+}

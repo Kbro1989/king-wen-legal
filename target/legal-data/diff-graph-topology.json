@@ -1,0 +1,446 @@
+{
+  "status": "complete",
+  "artifact_contract_version": "1.0.0",
+  "fabrication_policy": "PROHIBITED",
+  "constitution_string_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-48ab8abb9a.md",
+  "constitution_canonical_text_offsets": {
+    "note": "Exact character offsets into the Gutenberg cache file above. Constitution body ends near offset ~29000; later offsets are PG boilerplate and are excluded.",
+    "preamble_start": 44,
+    "article_i_start": 487,
+    "article_ii_start": 8291,
+    "article_iii_start": 12911,
+    "article_iv_start": 15353,
+    "article_v_start": 17757,
+    "bill_of_rights_start": 21011,
+    "amendments_xi_xxvii_start": 26571
+  },
+  "layout": {
+    "left": "originalist_meaning_nodes",
+    "center": "constitution_text_with_inject_and_parse_sites",
+    "right": "modern_legal_meaning_nodes"
+  },
+  "left_nodes": [
+    {
+      "id": "originalist_legislative",
+      "term": "legislative",
+      "cluster": "legislative",
+      "definition_source": "research/legal-data/dictionary-editions/1913-a-b/SKILL.md",
+      "inject_site": "inject_site_legislative_01"
+    },
+    {
+      "id": "originalist_commerce",
+      "term": "commerce",
+      "cluster": "commerce",
+      "definition_source": "research/legal-data/dictionary-editions/1913-a-b/SKILL.md",
+      "inject_site": "inject_site_commerce_01"
+    },
+    {
+      "id": "originalist_tax",
+      "term": "tax",
+      "cluster": "monetary",
+      "definition_source": "research/legal-data/dictionary-editions/1913-de/SKILL.md",
+      "inject_site": "inject_site_monetary_01"
+    },
+    {
+      "id": "originalist_coin",
+      "term": "coin",
+      "cluster": "monetary",
+      "definition_source": "research/legal-data/dictionary-editions/1913-a-b/SKILL.md",
+      "inject_site": "inject_site_monetary_02"
+    },
+    {
+      "id": "originalist_tender",
+      "term": "tender",
+      "cluster": "monetary",
+      "definition_source": "research/legal-data/dictionary-editions/1913-tuvw/SKILL.md",
+      "inject_site": "inject_site_monetary_03"
+    },
+    {
+      "id": "originalist_militia",
+      "term": "militia",
+      "cluster": "military",
+      "definition_source": "research/legal-data/dictionary-editions/1913-mno/SKILL.md",
+      "inject_site": "inject_site_military_01"
+    },
+    {
+      "id": "originalist_attainder",
+      "term": "attainder",
+      "cluster": "judicial",
+      "definition_source": "research/legal-data/dictionary-editions/1913-a-b/SKILL.md",
+      "inject_site": "inject_site_judicial_01"
+    },
+    {
+      "id": "originalist_money",
+      "term": "money",
+      "cluster": "monetary",
+      "definition_source": "research/legal-data/dictionary-editions/1913-de/SKILL.md",
+      "inject_site": "inject_site_monetary_04"
+    },
+    {
+      "id": "originalist_writ",
+      "term": "writ",
+      "cluster": "judicial",
+      "definition_source": "research/legal-data/dictionary-editions/1913-tuvw/SKILL.md",
+      "inject_site": "inject_site_judicial_02"
+    },
+    {
+      "id": "originalist_treason",
+      "term": "treason",
+      "cluster": "judicial",
+      "definition_source": "research/legal-data/dictionary-editions/1913-tuvw/SKILL.md",
+      "inject_site": "inject_site_judicial_03"
+    },
+    {
+      "id": "originalist_habeas",
+      "term": "habeas corpus",
+      "cluster": "procedural",
+      "definition_source": "research/legal-data/dictionary-editions/1913-f-gh/SKILL.md",
+      "inject_site": "inject_site_procedural_01"
+    },
+    {
+      "id": "originalist_ex_post_facto",
+      "term": "ex post facto",
+      "cluster": "procedural",
+      "definition_source": "research/legal-data/dictionary-editions/1913-f-gh/SKILL.md",
+      "inject_site": "inject_site_procedural_02"
+    },
+    {
+      "id": "originalist_contract",
+      "term": "contract",
+      "cluster": "property-and-obligation",
+      "definition_source": "research/legal-data/dictionary-editions/1913-a-b/SKILL.md",
+      "inject_site": "inject_site_property_01"
+    },
+    {
+      "id": "originalist_emolument",
+      "term": "emolument",
+      "cluster": "sovereignty",
+      "definition_source": "research/legal-data/dictionary-editions/1913-de/SKILL.md",
+      "inject_site": "inject_site_sovereignty_01"
+    }
+  ],
+  "center": {
+    "constitution_text": "PREAMBLE + ARTICLES + BILL OF RIGHTS string as mapped by exact offsets above",
+    "inject_sites": [
+      {
+        "id": "inject_site_legislative_01",
+        "term": "legislative",
+        "offset": 2311,
+        "cluster": "legislative"
+      },
+      {
+        "id": "inject_site_commerce_01",
+        "term": "commerce",
+        "offset": null,
+        "cluster": "commerce",
+        "note": "not present in Constitution body; Commerce Clause is implied in Article I Section 8"
+      },
+      {
+        "id": "inject_site_monetary_01",
+        "term": "tax",
+        "offset": 3286,
+        "cluster": "monetary"
+      },
+      {
+        "id": "inject_site_monetary_02",
+        "term": "coin",
+        "offset": 10941,
+        "cluster": "monetary"
+      },
+      {
+        "id": "inject_site_monetary_03",
+        "term": "tender",
+        "offset": null,
+        "cluster": "monetary",
+        "note": "not present verbatim; meaning drawn from Section 10 and 21st Amendment context"
+      },
+      {
+        "id": "inject_site_military_01",
+        "term": "militia",
+        "offset": 12257,
+        "cluster": "military"
+      },
+      {
+        "id": "inject_site_judicial_01",
+        "term": "attainder",
+        "offset": null,
+        "cluster": "judicial",
+        "note": "not present verbatim; meaning derived from Article I Sections 9-10"
+      },
+      {
+        "id": "inject_site_monetary_04",
+        "term": "money",
+        "offset": 37765,
+        "cluster": "monetary"
+      },
+      {
+        "id": "inject_site_judicial_02",
+        "term": "writ",
+        "offset": 19543,
+        "cluster": "judicial"
+      },
+      {
+        "id": "inject_site_judicial_03",
+        "term": "treason",
+        "offset": null,
+        "cluster": "judicial",
+        "note": "definition/context in Article III Section 3"
+      },
+      {
+        "id": "inject_site_procedural_01",
+        "term": "habeas corpus",
+        "offset": null,
+        "cluster": "procedural",
+        "note": "Article I Section 9"
+      },
+      {
+        "id": "inject_site_procedural_02",
+        "term": "ex post facto",
+        "offset": 13503,
+        "cluster": "procedural"
+      },
+      {
+        "id": "inject_site_property_01",
+        "term": "contract",
+        "offset": 26481,
+        "cluster": "property-and-obligation"
+      },
+      {
+        "id": "inject_site_sovereignty_01",
+        "term": "emolument",
+        "offset": null,
+        "cluster": "sovereignty",
+        "note": "not present verbatim; derived from Foreign and Domestic Emoluments Clauses context"
+      }
+    ],
+    "parse_sites": [
+      {
+        "id": "parse_site_legislative_01",
+        "term": "legislative",
+        "offset": 2311,
+        "role": "parse into originalist + modern node"
+      },
+      {
+        "id": "parse_site_commerce_01",
+        "term": "commerce",
+        "offset": null,
+        "role": "implied parse site; do not fabricate literal occurrence"
+      },
+      {
+        "id": "parse_site_monetary_01",
+        "term": "tax",
+        "offset": 3286,
+        "role": "parse into originalist + modern node"
+      },
+      {
+        "id": "parse_site_coin_01",
+        "term": "coin",
+        "offset": 10941,
+        "role": "parse into originalist + modern node"
+      },
+      {
+        "id": "parse_site_militia_01",
+        "term": "militia",
+        "offset": 12257,
+        "role": "parse into originalist + modern node"
+      },
+      {
+        "id": "parse_site_ex_post_facto_01",
+        "term": "ex post facto",
+        "offset": 13503,
+        "role": "parse into originalist + modern node"
+      },
+      {
+        "id": "parse_site_contract_01",
+        "term": "contract",
+        "offset": 26481,
+        "role": "parse into originalist + modern node"
+      },
+      {
+        "id": "parse_site_writ_01",
+        "term": "writ",
+        "offset": 19543,
+        "role": "parse into originalist + modern node"
+      }
+    ]
+  },
+  "right_nodes": [
+    {
+      "id": "modern_legislative",
+      "term": "legislative",
+      "cluster": "legislative",
+      "parse_site": "parse_site_legislative_01"
+    },
+    {
+      "id": "modern_commerce",
+      "term": "commerce",
+      "cluster": "commerce",
+      "parse_site": "parse_site_commerce_01"
+    },
+    {
+      "id": "modern_tax",
+      "term": "tax",
+      "cluster": "monetary",
+      "parse_site": "parse_site_monetary_01"
+    },
+    {
+      "id": "modern_coin",
+      "term": "coin",
+      "cluster": "monetary",
+      "parse_site": "parse_site_coin_01"
+    },
+    {
+      "id": "modern_tender",
+      "term": "tender",
+      "cluster": "monetary",
+      "parse_site": "parse_site_tender_01"
+    },
+    {
+      "id": "modern_militia",
+      "term": "militia",
+      "cluster": "military",
+      "parse_site": "parse_site_militia_01"
+    },
+    {
+      "id": "modern_attainder",
+      "term": "attainder",
+      "cluster": "judicial",
+      "parse_site": "parse_site_attainder_01"
+    },
+    {
+      "id": "modern_money",
+      "term": "money",
+      "cluster": "monetary",
+      "parse_site": "parse_site_money_01"
+    },
+    {
+      "id": "modern_writ",
+      "term": "writ",
+      "cluster": "judicial",
+      "parse_site": "parse_site_writ_01"
+    },
+    {
+      "id": "modern_treason",
+      "term": "treason",
+      "cluster": "judicial",
+      "parse_site": "parse_site_treason_01"
+    },
+    {
+      "id": "modern_habeas",
+      "term": "habeas corpus",
+      "cluster": "procedural",
+      "parse_site": "parse_site_habeas_01"
+    },
+    {
+      "id": "modern_ex_post_fatto",
+      "term": "ex post facto",
+      "cluster": "procedural",
+      "parse_site": "parse_site_ex_post_facto_01"
+    },
+    {
+      "id": "modern_contract",
+      "term": "contract",
+      "cluster": "property-and-obligation",
+      "parse_site": "parse_site_contract_01"
+    },
+    {
+      "id": "modern_emolument",
+      "term": "emolument",
+      "cluster": "sovereignty",
+      "parse_site": "parse_site_emolument_01"
+    }
+  ],
+  "edges": [
+    {
+      "from": "originalist_legislative",
+      "to": "modern_legislative",
+      "type": "drift_line",
+      "classification": "RED"
+    },
+    {
+      "from": "originalist_commerce",
+      "to": "modern_commerce",
+      "type": "drift_line",
+      "classification": "RED"
+    },
+    {
+      "from": "originalist_tax",
+      "to": "modern_tax",
+      "type": "drift_line",
+      "classification": "RED"
+    },
+    {
+      "from": "originalist_coin",
+      "to": "modern_coin",
+      "type": "drift_line",
+      "classification": "RED"
+    },
+    {
+      "from": "originalist_tender",
+      "to": "modern_tender",
+      "type": "drift_line",
+      "classification": "RED"
+    },
+    {
+      "from": "originalist_militia",
+      "to": "modern_militia",
+      "type": "drift_line",
+      "classification": "RED"
+    },
+    {
+      "from": "originalist_attainder",
+      "to": "modern_attainder",
+      "type": "drift_line",
+      "classification": "RED"
+    },
+    {
+      "from": "originalist_money",
+      "to": "modern_money",
+      "type": "drift_line",
+      "classification": "RED"
+    },
+    {
+      "from": "originalist_writ",
+      "to": "modern_writ",
+      "type": "drift_line",
+      "classification": "RED"
+    },
+    {
+      "from": "originalist_treason",
+      "to": "modern_treason",
+      "type": "drift_line",
+      "classification": "ORANGE"
+    },
+    {
+      "from": "originalist_habeas",
+      "to": "modern_habeas",
+      "type": "drift_line",
+      "classification": "ORANGE"
+    },
+    {
+      "from": "originalist_ex_post_facto",
+      "to": "modern_ex_post_fatto",
+      "type": "drift_line",
+      "classification": "ORANGE"
+    },
+    {
+      "from": "originalist_contract",
+      "to": "modern_contract",
+      "type": "drift_line",
+      "classification": "ORANGE"
+    },
+    {
+      "from": "originalist_emolument",
+      "to": "modern_emolument",
+      "type": "drift_line",
+      "classification": "ORANGE"
+    }
+  ],
+  "validation": {
+    "left_node_count": 14,
+    "right_node_count": 14,
+    "edge_count": 14,
+    "fabrication_policy": "PROHIBITED",
+    "missing_offsets_policy": "MARK_IMPLIED_AND_DO_NOT_FABRICATE_VERBATIM_OCCURRENCE"
+  }
+}
