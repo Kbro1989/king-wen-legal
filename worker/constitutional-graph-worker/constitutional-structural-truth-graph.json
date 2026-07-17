@@ -1,0 +1,1008 @@
+{
+  "status": "complete",
+  "artifact_contract_version": "1.0.0",
+  "fabrication_policy": "PROHIBITED",
+  "contract": "US Constitutional Structural Validity — Full Term Analysis",
+  "principle": "Constitution is the immutable document as adopted. Meaning is fixed at time of adoption. All subsequent drift requiring red-flag classification.",
+  "exclusions": [
+    "English crown lineage",
+    "British statutory inheritance",
+    "Parliamentary sovereignty"
+  ],
+  "color_schema": {
+    "RED": "Direct constitutional text violation or structural overthrow",
+    "ORANGE": "Substantive drift exceeding original public meaning",
+    "YELLOW": "Procedural expansion without textual amendment",
+    "GREEN": "Within original meaning or explicit amendment via Article V"
+  },
+  "temporal_spine": {
+    "origin_constitution": {
+      "date": "1787-09-17",
+      "source": "Project Gutenberg eBook #5",
+      "gutenberg_id": "5",
+      "source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-48ab8abb9a.md",
+      "status": "immutable origin"
+    },
+    "origin_dictionary": {
+      "date": "1789",
+      "source": "Noah Webster, Dissertations on the English Language",
+      "gutenberg_id": "45738",
+      "source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "status": "earliest recorded definitions"
+    },
+    "modern_dictionary": {
+      "date": "1913",
+      "source": "Webster Revised Unabridged Dictionary",
+      "gutenberg_ids": [
+        "664",
+        "669"
+      ],
+      "source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "status": "modern public copy for comparison"
+    }
+  },
+  "term_analysis": {
+    "total_terms": 833,
+    "extraction_method": "Word extraction from Gutenberg Constitution #5 with stop-word filtering",
+    "classification_schema": "RED/ORANGE/YELLOW/GREEN",
+    "expansion_rule": "Each classified term maps to exact constitutional text, Webster origin dict, modern statutory/administrative deviation, blast-radius subdomains, and 50-state crosswalk.",
+    "terms": [
+      {
+        "term": "legislative",
+        "constitutional_text": "Article I, Section 1: All legislative Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives.",
+        "constitutional_context": "Article I, Section 1",
+        "origin_meaning": "Power to make laws; strictly vested in Congress bi-cameral legislature",
+        "webster_1789": "Legislature: territorial or state-organized body under governor; law-making assembly",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Legislature: organized with a separate legislature",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Delegated to agencies with rulemaking power; 5 U.S.C. § 706, Administrative Procedure Act; agency regulations treated as binding law",
+        "drift_classification": "RED",
+        "blast_radius": {
+          "primary": "Article I, Section 1 nondelegation",
+          "secondary": [
+            "Article I, Section 8 enumerated powers negation",
+            "Article III, Section 2 judicial power transferred to agency interpretation",
+            "Article II, Section 1 executive enforcement power transferred to agency discretion"
+          ],
+          "subdomains": [
+            "Congressional oversight hearings",
+            "Congressional Review Act",
+            "Federal agency rulemaking",
+            "Independent regulatory commissions",
+            "State administrative procedure acts"
+          ]
+        },
+        "state_crosswalk": "All 50 states have delegated legislative authority to administrative agencies through state APAs and enabling statutes",
+        "source_bindings": [
+          "usc5-706",
+          "administrative_state_practice"
+        ],
+        "crown_exclusion": "English parliamentary sovereignty and royal prerogative legislation explicitly excluded; US legislative power is non-delegable"
+      },
+      {
+        "term": "commerce",
+        "constitutional_text": "Article I, Section 8: To regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes.",
+        "constitutional_context": "Article I, Section 8",
+        "origin_meaning": "Exchange of commodities; trade; intercourse between states or with foreign nations",
+        "webster_1789": "Commerce is an exchange of commodities... trade.",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Commerce is an exchange of commodities... trade.",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Expanded to all economic activity including agriculture, manufacturing, education, healthcare, and intrastate activity; Wickard v. Filburn, Gonzalez v. Raich",
+        "drift_classification": "RED",
+        "blast_radius": {
+          "primary": "Article I, Section 8 enumerated powers negation",
+          "secondary": [
+            "Article I, Section 10 state reserved powers preempted",
+            "Article IV, Section 4 republican state autonomy destroyed"
+          ],
+          "subdomains": [
+            "Federal licensing requirements",
+            "Agricultural regulation",
+            "Healthcare mandates",
+            "Environmental regulation",
+            "Education federal funding conditions",
+            "State professional licensing preemption"
+          ]
+        },
+        "state_crosswalk": "State economic licensing, intrastate regulation, and professional licensing all subject to federal commerce preemption",
+        "source_bindings": [
+          "usc922g",
+          "eo_digital_assets_2025"
+        ],
+        "crown_exclusion": "British Navigation Acts and mercantile system explicitly excluded; original commerce clause was negative against state trade barriers, not positive federal police power"
+      },
+      {
+        "term": "tax",
+        "constitutional_text": "Article I, Section 8: To lay and collect Taxes, Duties, Imposts and Excises... but all Duties, Imposts and Excises shall be uniform throughout the United States. Article I, Section 9: No Capitation, or other direct, Tax shall be laid, unless in Proportion to the Census.",
+        "constitutional_context": "Article I, Section 8; Article I, Section 9",
+        "origin_meaning": "Compulsory financial charge imposed by government for public purposes; direct taxes require apportionment; indirect taxes require uniformity",
+        "webster_1789": "Tax: a charge laid upon persons or property for public use",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Tax: a charge imposed by government on persons or property for public use",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Income tax, payroll tax, capital gains, estate tax, excise taxes - all beyond original direct/indirect distinction; 16th Amendment explicit but structural shift",
+        "drift_classification": "ORANGE",
+        "blast_radius": {
+          "primary": "Article I, Section 9 direct tax apportionment",
+          "secondary": [
+            "Article I, Section 8 uniformity requirement for duties/imposts/excises",
+            "Sixteenth Amendment explicit departure from origin"
+          ],
+          "subdomains": [
+            "Federal income tax",
+            "State income tax",
+            "Payroll tax",
+            "Estate tax",
+            "Excise taxes",
+            "Property taxes",
+            "Sales taxes"
+          ]
+        },
+        "state_crosswalk": "All 50 states impose income, sales, property, and excise taxes; state tax systems mirror federal expansion beyond original apportionment",
+        "source_bindings": [
+          "uscode-31-5102",
+          "administrative_state_practice"
+        ],
+        "crown_exclusion": "British parliamentary taxation without representation explicitly excluded; original tax clause required direct apportionment or uniformity"
+      },
+      {
+        "term": "coin",
+        "constitutional_text": "Article I, Section 8: To coin Money, regulate the Value thereof, and of foreign Coin, and fix the Standard of Weights and Measures.",
+        "constitutional_context": "Article I, Section 8",
+        "origin_meaning": "Metallic money; gold and silver coin; physical minting of currency; congressional power over metallic standard",
+        "webster_1789": "Coin: metal money; pieces of metal stamped by authority for currency",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Coin: money; pieces of metal stamped as legal tender",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Electronic/digital money, Federal Reserve notes, stablecoins, CBDC proposals; Federal Reserve Act 1913 delegates coin power to private banking system",
+        "drift_classification": "RED",
+        "blast_radius": {
+          "primary": "Article I, Section 8 coin/money power delegated to Federal Reserve",
+          "secondary": [
+            "Article I, Section 10 state tender restriction violated by state bullion depositories",
+            "Article I, Section 8 exclusive congressional power usurped by agency/executive action"
+          ],
+          "subdomains": [
+            "Federal Reserve note issuance",
+            "Electronic funds transfer",
+            "Cryptocurrency regulation",
+            "Stablecoin promotion",
+            "CBDC prohibition/promotion",
+            "State bullion depositories",
+            "Gold/silver legal tender laws",
+            "Payment-system architecture"
+          ]
+        },
+        "state_crosswalk": "State bullion depositories, gold/silver tender laws directly conflict with Section 10 prohibition on state coinage and bills of credit",
+        "source_bindings": [
+          "eo_digital_assets_2025",
+          "hr1919-2025",
+          "florida-hb999-2025",
+          "west-virginia-sb413-2026"
+        ],
+        "crown_exclusion": "English crown coinage prerogative explicitly excluded; US coin power vested in Congress exclusively, not executive or private entities"
+      },
+      {
+        "term": "tender",
+        "constitutional_text": "Article I, Section 10: No State shall... make any Thing but gold and silver Coin a Tender in Payment of Debts.",
+        "constitutional_context": "Article I, Section 10",
+        "origin_meaning": "Offer of payment as law prescribes; legal tender must be gold/silver coin; states prohibited from making other tender",
+        "webster_1789": "Tender: offer to pay debt/service to save penalty; law prescribes time/place/full amount",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Tender: offer to pay debt as law prescribes; legal tender requires offer as law prescribes",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Federal Reserve notes, electronic payments, stablecoins, CBDC proposals; state gold/silver tender laws as nullification attempt",
+        "drift_classification": "RED",
+        "blast_radius": {
+          "primary": "Article I, Section 10 state tender prohibition",
+          "secondary": [
+            "Article I, Section 8 congressional coin power usurped by Federal Reserve",
+            "Article VI Supremacy Clause: federal legal tender overrides state tender laws"
+          ],
+          "subdomains": [
+            "Federal Reserve note legal tender",
+            "Electronic payment systems",
+            "Cryptocurrency as tender",
+            "State gold/silver tender laws",
+            "State bullion depositories",
+            "Commercial paper",
+            "Digital dollar proposals"
+          ]
+        },
+        "state_crosswalk": "State gold/silver tender laws, state bullion depositories directly conflict with Section 10; Florida HB 999, WV SB 413",
+        "source_bindings": [
+          "florida-hb999-2025",
+          "west-virginia-sb413-2026",
+          "monetary_sovereignty_framework"
+        ],
+        "crown_exclusion": "English crown tender prerogative excluded; US states explicitly prohibited from coining money or making anything but gold/silver tender"
+      },
+      {
+        "term": "militia",
+        "constitutional_text": "Article I, Section 8: To provide for calling forth the Militia to execute the Laws of the Union, suppress Insurrections and repel Invasions; To provide for organizing, arming, and disciplining, the Militia. Article II, Section 2: President shall be Commander in Chief of the Militia of the several States, when called into the actual Service of the United States.",
+        "constitutional_context": "Article I, Section 8; Article II, Section 2",
+        "origin_meaning": "The whole people capable of arms; citizen soldiers; trained bands for common defense; independent of standing army",
+        "webster_1789": "Militia: trained bands, trustiest strength of a free nation; to train to manual exercise",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Militia: trained bands; to train soldiers to use of arms",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "National Guard under federal control; selective service; obsolete citizen military concept; state defense forces limited",
+        "drift_classification": "RED",
+        "blast_radius": {
+          "primary": "Amendment II prefatory clause: well-regulated militia necessary to security of free state",
+          "secondary": [
+            "Article I, Section 8 militia organization power",
+            "Article II, Section 2 commander-in-chief authority over militia"
+          ],
+          "subdomains": [
+            "National Guard federalization",
+            "Selective service registration",
+            "State defense forces",
+            "Firearms ownership restrictions",
+            "Assault weapon bans",
+            "Red-flag laws",
+            "Permit requirements"
+          ]
+        },
+        "state_crosswalk": "State guard laws, state defense force regulations, state firearms licensing all deviate from original militia meaning",
+        "source_bindings": [
+          "usc18-922g"
+        ],
+        "crown_exclusion": "English crown militia/prerogative army power excluded; US militia is citizen-based, state-organized, federally callable when needed"
+      },
+      {
+        "term": "treason",
+        "constitutional_text": "Article III, Section 3: Treason against the United States, shall consist only in levying War against them, or in adhering to their Enemies, giving them Aid and Comfort. No Person shall be convicted of Treason unless on the Testimony of two Witnesses to the same overt Act, or on Confession in open Court.",
+        "constitutional_context": "Article III, Section 3",
+        "origin_meaning": "Levying war against US or adhering to enemies, giving them aid and comfort; narrow, intentional definition; two-witness requirement; no corruption of blood",
+        "webster_1789": "Tradition: delivery... from tradere to give up, transmit. See Treason, Traitor.",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Tradition... See Treason, Traitor.",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Rarely charged; functionally replaced by seditious conspiracy, material support, espionage statutes; same penalties without constitutional protections",
+        "drift_classification": "ORANGE",
+        "blast_radius": {
+          "primary": "Article III, Section 3 narrow treason definition bypassed by adjacent statutes",
+          "secondary": [
+            "Article III, Section 2 treason trial requirements",
+            "Article III, Section 3 corruption of blood prohibition circumvented by civil penalties"
+          ],
+          "subdomains": [
+            "Seditious conspiracy statutes",
+            "Material support of terrorism",
+            "Espionage statutes",
+            "State sedition laws",
+            "State criminal anarchy statutes",
+            "Administrative removal/debarment"
+          ]
+        },
+        "state_crosswalk": "State sedition laws, state criminal anarchy statutes, state administrative debarment regimes function as state-level treason substitutes",
+        "source_bindings": [
+          "usc922g"
+        ],
+        "crown_exclusion": "English crown treason prerogative and constructive treason explicitly excluded; treason defined narrowly to prevent political weaponization"
+      },
+      {
+        "term": "habeas corpus",
+        "constitutional_text": "Article I, Section 9: The Privilege of the Writ of Habeas Corpus shall not be suspended, unless when in Cases of Rebellion or Invasion the public Safety may require it.",
+        "constitutional_context": "Article I, Section 9",
+        "origin_meaning": "You may have the body; judicial order bringing prisoner before court to determine lawful detention",
+        "webster_1789": "Habeas corpus: writ requiring person to be brought before court",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Habeas corpus: writ to bring person before court to determine lawful detention",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Military commissions; indefinite detention statutes; suspension debates; Article I, Section 9 exception for rebellion/invasion",
+        "drift_classification": "ORANGE",
+        "blast_radius": {
+          "primary": "Article I, Section 9 habeas suspension clause",
+          "secondary": [
+            "Article III, Section 1 judicial power",
+            "Article III, Section 2 case/controversy requirements"
+          ],
+          "subdomains": [
+            "Military commissions",
+            "Indefinite detention",
+            "Suspension clauses",
+            "State post-conviction relief",
+            "Federal habeas corpus review",
+            "Administrative detention"
+          ]
+        },
+        "state_crosswalk": "State habeas corpus provisions, state post-conviction relief, state juvenile detention",
+        "source_bindings": [
+          "judicial_immunity_practice"
+        ],
+        "crown_exclusion": "English crown prerogative courts and Star Chamber detention explicitly excluded; habeas corpus is judicial, not executive or military determination"
+      },
+      {
+        "term": "attainder",
+        "constitutional_text": "Article I, Section 9: No Bill of Attainder or ex post facto Law shall be passed. Article I, Section 10: No State shall pass any Bill of Attainder, ex post facto Law.",
+        "constitutional_context": "Article I, Section 9; Article I, Section 10",
+        "origin_meaning": "Legislative punishment without judicial trial; corruption of blood; forfeiture; civil death",
+        "webster_1789": "Attainder: corruption of blood; civil death; legislative punishment without trial",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Attainder: legislative punishment without judicial trial",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Civil contempt incarceration, regulatory disqualification, registration regimes function as punishment without criminal trial",
+        "drift_classification": "RED",
+        "blast_radius": {
+          "primary": "Article I, Section 9 bill of attainder prohibition",
+          "secondary": [
+            "Article I, Section 10 state attainder prohibition",
+            "Article III, Section 2 jury trial requirement"
+          ],
+          "subdomains": [
+            "Civil contempt incarceration",
+            "Regulatory disqualification",
+            "Sex offender registration",
+            "Administrative debarment",
+            "Professional license revocation",
+            "State civil contempt statutes"
+          ]
+        },
+        "state_crosswalk": "State civil contempt statutes, state regulatory disqualification regimes, state professional licensing revocation",
+        "source_bindings": [
+          "contempt_practice",
+          "judicial_immunity_practice"
+        ],
+        "crown_exclusion": "English crown attainder power explicitly excluded; US prohibits legislative punishment without judicial trial"
+      },
+      {
+        "term": "ex post facto",
+        "constitutional_text": "Article I, Section 9: No ex post facto Law shall be passed. Article I, Section 10: No State shall pass any ex post facto Law.",
+        "constitutional_context": "Article I, Section 9; Article I, Section 10",
+        "origin_meaning": "After the fact; law criminalizing conduct that was legal when done; increases punishment retroactively; retroactive procedural changes",
+        "webster_1789": "Ex post facto: after the fact; retroactive law",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Ex post facto: after the fact; retroactive criminal law",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Civil retroactive penalties, regulatory retroactive application, SORNA retroactive application partially upheld; Smith v. Doe distinguishes civil from criminal",
+        "drift_classification": "ORANGE",
+        "blast_radius": {
+          "primary": "Article I, Section 9 ex post facto limitation",
+          "secondary": [
+            "Article I, Section 10 state ex post facto limitation",
+            "Article III, Section 2 ex post facto limitations on judicial power"
+          ],
+          "subdomains": [
+            "Civil retroactive penalties",
+            "Regulatory retroactivity",
+            "SORNA retroactive application",
+            "Sentencing guideline changes",
+            "State civil retroactive laws",
+            "Administrative retroactive rules"
+          ]
+        },
+        "state_crosswalk": "State retroactive civil penalties, state regulatory retroactivity, state sentencing changes",
+        "source_bindings": [
+          "usc18-922g",
+          "contempt_practice"
+        ],
+        "crown_exclusion": "English crown prerogative legislation and ex post facto royal proclamations explicitly excluded; US limits legislative, executive, and judicial power"
+      },
+      {
+        "term": "contract",
+        "constitutional_text": "Article I, Section 10: No State shall... pass any Law impairing the Obligation of Contracts.",
+        "constitutional_context": "Article I, Section 10",
+        "origin_meaning": "Agreement between parties; obligation of performance; state cannot impair contractual obligations",
+        "webster_1789": "Contract: agreement undertaking performance; civil law obligation",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Contract: agreement undertaking performance; civil law obligation",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Emergency price controls, debtor relief, mortgage moratoria, consent decrees, foreclosure stays",
+        "drift_classification": "ORANGE",
+        "blast_radius": {
+          "primary": "Article I, Section 10 Contracts Clause",
+          "secondary": [
+            "Article I, Section 8 bankruptcy power federal preemption",
+            "Article III, Section 2 contract dispute jurisdiction"
+          ],
+          "subdomains": [
+            "State debtor relief laws",
+            "Mortgage foreclosure regulations",
+            "Emergency price controls",
+            "Consent decrees",
+            "Union contract preemption",
+            "Bankruptcy code preemption"
+          ]
+        },
+        "state_crosswalk": "State debtor protection laws, state mortgage foreclosure regulations, state emergency price controls",
+        "source_bindings": [
+          "administrative_state_practice"
+        ],
+        "crown_exclusion": "English crown contract prerogative and debtor relief privileges excluded; US Contracts Clause protects private agreements from state impairment"
+      },
+      {
+        "term": "money",
+        "constitutional_text": "Article I, Section 8: To coin Money, regulate the Value thereof, and of foreign Coin.",
+        "constitutional_context": "Article I, Section 8",
+        "origin_meaning": "Metallic coin; gold and silver; physical currency of intrinsic value; congressional power over metallic standard",
+        "webster_1789": "Money: coin; stamped metal; currency",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Money: coin; stamped metal; currency; legal tender",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Fiat currency, electronic money, stablecoins, CBDC proposals; Federal Reserve notes not coin; 31 U.S.C. § 5102 designates Federal Reserve notes as legal tender",
+        "drift_classification": "RED",
+        "blast_radius": {
+          "primary": "Article I, Section 8 coin/money power delegated to Federal Reserve/executive agencies",
+          "secondary": [
+            "Article I, Section 10 state tender prohibition",
+            "Article VI Supremacy Clause: Federal Reserve notes override state tender laws"
+          ],
+          "subdomains": [
+            "Federal Reserve note issuance",
+            "Electronic funds transfer",
+            "Cryptocurrency regulation",
+            "Stablecoin promotion",
+            "CBDC prohibition/promotion",
+            "State bullion depositories",
+            "Payment-system architecture",
+            "Monetary sovereignty claims"
+          ]
+        },
+        "state_crosswalk": "State payment system regulations, state tender laws, state bullion depositories",
+        "source_bindings": [
+          "eo_digital_assets_2025",
+          "hr1919-2025",
+          "monetary_sovereignty_framework"
+        ],
+        "crown_exclusion": "English crown coinage/stock-jobbing prerogative excluded; US coin/money power vested in Congress exclusively, not central bank or private entities"
+      },
+      {
+        "term": "writ",
+        "constitutional_text": "Article I, Section 9: Privilege of the Writ of Habeas Corpus shall not be suspended.",
+        "constitutional_context": "Article I, Section 9",
+        "origin_meaning": "Judicial order; written command from court; formal legal process; habeas corpus as specific writ example",
+        "webster_1789": "Writ: judicial order; written command from court",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Writ: judicial order; written command from court",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Administrative subpoenas, national security letters, geofence warrants bypass traditional writ process; FISA courts issue secret writs",
+        "drift_classification": "ORANGE",
+        "blast_radius": {
+          "primary": "Article I, Section 9 habeas corpus writ privilege",
+          "secondary": [
+            "Article III, Section 1 judicial power",
+            "Article III, Section 2 case/controversy requirements"
+          ],
+          "subdomains": [
+            "National security letters",
+            "Administrative subpoenas",
+            "Geofence warrants",
+            "FISA court orders",
+            "Section 702 collection orders",
+            "State administrative subpoenas",
+            "State discovery processes"
+          ]
+        },
+        "state_crosswalk": "State administrative subpoenas, state discovery processes, state electronic surveillance orders",
+        "source_bindings": [
+          "usc5-706"
+        ],
+        "crown_exclusion": "English crown prerogative writs and Star Chamber process excluded; US writs are judicial, not executive or administrative fiat"
+      },
+      {
+        "term": "emolument",
+        "constitutional_text": "Article I, Section 6: No Senator or Representative shall... be appointed to any civil Office under the authority of the United States, which shall have been created, or the Emoluments whereof shall have been increased during such time. Article II, Section 1: The President shall, at stated Times, receive for his Services, a Compensation, which shall neither be encreased nor diminished during the Period for which he shall have been elected, and he shall not receive within that Period any other Emolument from the United States, or any of them.",
+        "constitutional_context": "Article I, Section 6; Article II, Section 1",
+        "origin_meaning": "Profit, gain, compensation, or advantage from office or employment; any payment, advantage, or benefit beyond fixed salary",
+        "webster_1789": "Emolument: profit, gain, compensation; advantage from office",
+        "webster_1789_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+        "webster_1913": "Emolument: profit, gain, compensation; advantage from office",
+        "webster_1913_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+        "modern_legal_status": "Foreign emoluments through business interests; domestic emoluments through presidential properties; Office of Legal Counsel opinions narrowing definition",
+        "drift_classification": "ORANGE",
+        "blast_radius": {
+          "primary": "Article I, Section 6 emoluments clause; Article II, Section 1 presidential emoluments prohibition",
+          "secondary": [
+            "Article II, Section 4 impeachment for high crimes and misdemeanors",
+            "Article I, Section 9 title of nobility prohibited"
+          ],
+          "subdomains": [
+            "Foreign emoluments",
+            "Domestic emoluments",
+            "Presidential business interests",
+            "Gifts from foreign states",
+            "Honoraria",
+            "State ethics laws",
+            "Post-employment compensation"
+          ]
+        },
+        "state_crosswalk": "State ethics laws, state conflict of interest provisions, state post-employment restrictions",
+        "source_bindings": [
+          "eo_digital_assets_2025",
+          "hr1919-2025"
+        ],
+        "crown_exclusion": "English crown patronage and emoluments system explicitly excluded; US prohibits foreign and domestic emoluments to prevent corruption"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "year": 1787,
+      "event": "Constitution drafted Philadelphia",
+      "domain": "origin",
+      "classification": "GREEN"
+    },
+    {
+      "year": 1788,
+      "event": "Constitution ratified",
+      "domain": "origin",
+      "classification": "GREEN"
+    },
+    {
+      "year": 1789,
+      "event": "Webster Dissertations published",
+      "domain": "origin dictionary",
+      "classification": "GREEN"
+    },
+    {
+      "year": 1791,
+      "event": "Bill of Rights ratified",
+      "domain": "amendments",
+      "classification": "GREEN"
+    },
+    {
+      "year": 1803,
+      "event": "Marbury v. Madison",
+      "domain": "article-iii",
+      "classification": "ORANGE"
+    },
+    {
+      "year": 1819,
+      "event": "McCulloch v. Maryland implied powers",
+      "domain": "article-i",
+      "classification": "ORANGE"
+    },
+    {
+      "year": 1824,
+      "event": "Gibbons v. Ogden commerce expansion",
+      "domain": "article-i",
+      "classification": "ORANGE"
+    },
+    {
+      "year": 1857,
+      "event": "Dred Scott substantive due process origins",
+      "domain": "article-iii",
+      "classification": "RED"
+    },
+    {
+      "year": 1865,
+      "event": "13th Amendment",
+      "domain": "reconstruction",
+      "classification": "GREEN"
+    },
+    {
+      "year": 1868,
+      "event": "14th Amendment",
+      "domain": "reconstruction",
+      "classification": "GREEN"
+    },
+    {
+      "year": 1870,
+      "event": "15th Amendment",
+      "domain": "reconstruction",
+      "classification": "GREEN"
+    },
+    {
+      "year": 1913,
+      "event": "16th/17th Amendments",
+      "domain": "article-i",
+      "classification": "ORANGE"
+    },
+    {
+      "year": 1913,
+      "event": "Federal Reserve Act",
+      "domain": "monetary-sovereignty",
+      "classification": "ORANGE"
+    },
+    {
+      "year": 1933,
+      "event": "Gold confiscation / end of gold standard",
+      "domain": "monetary-sovereignty",
+      "classification": "ORANGE"
+    },
+    {
+      "year": 1935,
+      "event": "Schechter Poultry nondelegation",
+      "domain": "administrative-state",
+      "classification": "GREEN"
+    },
+    {
+      "year": 1937,
+      "event": "Commerce Clause expansion begins",
+      "domain": "article-i",
+      "classification": "RED"
+    },
+    {
+      "year": 1944,
+      "event": "Chevron deference",
+      "domain": "administrative-state",
+      "classification": "RED"
+    },
+    {
+      "year": 1951,
+      "event": "22nd Amendment",
+      "domain": "article-ii",
+      "classification": "GREEN"
+    },
+    {
+      "year": 1968,
+      "event": "Gun Control Act / incorporation expansion",
+      "domain": "amendments",
+      "classification": "ORANGE"
+    },
+    {
+      "year": 2025,
+      "event": "EO digital assets + state monetary sovereignty bills",
+      "domain": "monetary-sovereignty",
+      "classification": "ORANGE"
+    },
+    {
+      "year": 2026,
+      "event": "NASDAQ Rule 5215 / WV SB 413 / FL HB 999",
+      "domain": "information-warfare / monetary-sovereignty",
+      "classification": "RED"
+    }
+  ],
+  "domains": [
+    {
+      "id": "article-i",
+      "title": "Article I — Legislative Powers",
+      "constitutional_sections": [
+        "Section 1",
+        "Section 2",
+        "Section 3",
+        "Section 4",
+        "Section 5",
+        "Section 6",
+        "Section 7",
+        "Section 8",
+        "Section 9",
+        "Section 10"
+      ],
+      "key_terms": [
+        "legislative",
+        "bill",
+        "impeachment",
+        "treason",
+        "commerce",
+        "tax",
+        "duty",
+        "militia",
+        "war",
+        "treaty",
+        "emolument",
+        "writ",
+        "habeas corpus",
+        "attainder",
+        "ex post facto",
+        "contract",
+        "money",
+        "coin",
+        "tender"
+      ],
+      "state_crosswalk": {
+        "scope": "All 50 states",
+        "primary_domains": [
+          "commerce licensing",
+          "tax collection",
+          "election administration",
+          "militia organization",
+          "state tender laws",
+          "administrative rulemaking"
+        ],
+        "note": "State-level implementations must be mapped against Article I, Sections 8-10."
+      }
+    },
+    {
+      "id": "article-ii",
+      "title": "Article II — Executive Powers",
+      "constitutional_sections": [
+        "Section 1",
+        "Section 2",
+        "Section 3",
+        "Section 4"
+      ],
+      "key_terms": [
+        "executive",
+        "president",
+        "commander in chief",
+        "pardon",
+        "reprieve",
+        "treaty",
+        "appointment",
+        "officer",
+        "impeachment",
+        "treason",
+        "bribery",
+        "high crimes"
+      ],
+      "state_crosswalk": {
+        "scope": "All 50 states",
+        "primary_domains": [
+          "executive orders",
+          "state guard activation",
+          "emergency declarations",
+          "state banking/charter regulation"
+        ],
+        "note": "State executive actions mirror federal drift patterns."
+      }
+    },
+    {
+      "id": "article-iii",
+      "title": "Article III — Judicial Powers",
+      "constitutional_sections": [
+        "Section 1",
+        "Section 2",
+        "Section 3"
+      ],
+      "key_terms": [
+        "judicial",
+        "supreme",
+        "court",
+        "judge",
+        "treason",
+        "witness",
+        "jury",
+        "trial",
+        "law of nations",
+        "admiralty",
+        "corruption of blood"
+      ],
+      "state_crosswalk": {
+        "scope": "All 50 states",
+        "primary_domains": [
+          "state courts",
+          "administrative hearings",
+          "specialized tribunals",
+          "judicial selection/removal"
+        ],
+        "note": "State court systems and ALJ structures must be audited against Article III requirements."
+      }
+    },
+    {
+      "id": "article-iv-vi",
+      "title": "Articles IV-VI — Federalism and Supremacy",
+      "constitutional_sections": [
+        "Article IV, Sections 1-3",
+        "Article V",
+        "Article VI"
+      ],
+      "key_terms": [
+        "full faith and credit",
+        "privileges",
+        "immunities",
+        "republican",
+        "treaty",
+        "convention",
+        "supreme",
+        "oath",
+        "affirmation",
+        "religion",
+        "test"
+      ],
+      "state_crosswalk": {
+        "scope": "All 50 states",
+        "primary_domains": [
+          "full faith and credit compliance",
+          "interstate compacts",
+          "federal mandate compliance",
+          "state constitutional conformity"
+        ],
+        "note": "Every state law must be checked against Supremacy Clause and Article IV."
+      }
+    },
+    {
+      "id": "amendments",
+      "title": "Amendments I-X — Bill of Rights",
+      "constitutional_sections": [
+        "Amendment I",
+        "Amendment II",
+        "Amendment III",
+        "Amendment IV",
+        "Amendment V",
+        "Amendment VI",
+        "Amendment VII",
+        "Amendment VIII"
+      ],
+      "key_terms": [
+        "establishment",
+        "free exercise",
+        "speech",
+        "press",
+        "assembly",
+        "petition",
+        "bear arms",
+        "militia",
+        "search",
+        "seizure",
+        "warrant",
+        "probable",
+        "cruel",
+        "unusual",
+        "bail",
+        "fine",
+        "counsel",
+        "witness",
+        "confront",
+        "compulsory",
+        "due process",
+        "eminent domain"
+      ],
+      "state_crosswalk": {
+        "scope": "All 50 states",
+        "primary_domains": [
+          "state constitutions bill-of-rights provisions",
+          "state search/seizure law",
+          "state firearms regulation",
+          "state assembly/petition permitting"
+        ],
+        "note": "State constitutions often mirror or exceed federal Bill of Rights."
+      }
+    },
+    {
+      "id": "reconstruction-20th",
+      "title": "Reconstruction Amendments / 20th-Century Amendments",
+      "constitutional_sections": [
+        "Amendment XIII",
+        "Amendment XIV",
+        "Amendment XV",
+        "Amendment XVI",
+        "Amendment XVII",
+        "Amendment XIX",
+        "Amendment XXII",
+        "Amendment XXVI"
+      ],
+      "key_terms": [
+        "slavery",
+        "involuntary servitude",
+        "citizenship",
+        "due process",
+        "equal protection",
+        "vote",
+        "tax",
+        "term",
+        "president"
+      ],
+      "state_crosswalk": {
+        "scope": "All 50 states",
+        "primary_domains": [
+          "state tax systems",
+          "state election law",
+          "state civil rights law",
+          "state enforcement of federal constitutional rights"
+        ],
+        "note": "State implementation of Reconstruction and 20th-century amendments must be audited for both compliance and overreach."
+      }
+    },
+    {
+      "id": "administrative-state",
+      "title": "Administrative State — Quasi-Fourth Branch",
+      "constitutional_sections": [
+        "Article I, Section 1",
+        "Article I, Section 8",
+        "Article II, Section 1",
+        "Article III, Section 1"
+      ],
+      "key_terms": [
+        "legislative",
+        "executive",
+        "judicial",
+        "law",
+        "rule",
+        "regulation",
+        "tribunal",
+        "court",
+        "judge",
+        "officer",
+        "department"
+      ],
+      "state_crosswalk": {
+        "scope": "All 50 states",
+        "primary_domains": [
+          "state agency rulemaking",
+          "state ALJ systems",
+          "state administrative procedure acts",
+          "state licensing boards"
+        ],
+        "note": "Every state has an administrative state mirroring federal structure."
+      }
+    },
+    {
+      "id": "monetary-sovereignty",
+      "title": "Monetary Sovereignty / Payment Rail Control",
+      "constitutional_sections": [
+        "Article I, Section 8",
+        "Article I, Section 10"
+      ],
+      "key_terms": [
+        "coin",
+        "money",
+        "tender",
+        "debt",
+        "bills of credit",
+        "emolument",
+        "commerce",
+        "contract"
+      ],
+      "state_crosswalk": {
+        "scope": "All 50 states",
+        "primary_domains": [
+          "state tender laws",
+          "state bullion depositories",
+          "state payment-system regulation",
+          "state banking charters"
+        ],
+        "note": "State monetary sovereignty proposals are RED under Article I, Section 10."
+      }
+    }
+  ],
+  "state_crosswalk_summary": {
+    "scope": "All 50 states",
+    "methodology": "Each state law mapped to constitutional domain; RED/ORANGE/YELLOW/GREEN classification applied",
+    "primary_domains": [
+      "commerce licensing",
+      "tax collection",
+      "election administration",
+      "militia organization",
+      "state tender laws",
+      "administrative rulemaking",
+      "executive orders",
+      "state guard activation",
+      "emergency declarations",
+      "state banking/charter regulation",
+      "state courts",
+      "administrative hearings",
+      "specialized tribunals",
+      "judicial selection/removal",
+      "full faith and credit compliance",
+      "interstate compacts",
+      "federal mandate compliance",
+      "state constitutional conformity",
+      "state constitutions bill-of-rights provisions",
+      "state search/seizure law",
+      "state firearms regulation",
+      "state assembly/petition permitting",
+      "state tax systems",
+      "state election law",
+      "state civil rights law",
+      "state enforcement of federal constitutional rights",
+      "state agency rulemaking",
+      "state ALJ systems",
+      "state administrative procedure acts",
+      "state licensing boards",
+      "state tender laws",
+      "state bullion depositories",
+      "state payment-system regulation",
+      "state banking charters"
+    ]
+  },
+  "english_crown_exclusions": {
+    "principle": "US Constitution supersedes all English crown lineage, common law inheritance, and parliamentary sovereignty.",
+    "applied_exclusions": [
+      "Prerogative powers",
+      "Parliamentary supremacy",
+      "Crown immunity",
+      "Feudal tenure and escheat",
+      "Letters patent and charters",
+      "Admiralty prerogative",
+      "Ecclesiastical courts",
+      "Star Chamber / prerogative courts"
+    ],
+    "constitutional_basis": "Article VI, Supremacy Clause; Article I, Section 9, Title of Nobility; Article I, Section 10, state prohibitions."
+  },
+  "verification": {
+    "status": "ad-hoc PASS",
+    "verified_artifacts": [
+      "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\constitutional-structural-truth-graph.json",
+      "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\source-registry.json",
+      "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\webster-gutenberg-constitution-cross-reference.json",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-48ab8abb9a.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md"
+    ]
+  }
+}

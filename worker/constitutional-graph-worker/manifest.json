@@ -1,0 +1,576 @@
+{
+  "contract": "Skill-Cluster Manifest for Constitution Parser Bindings",
+  "principle": "Cluster per-dictionary learn skills by semantic domain with MISSING_FOR_CLUSTER semantics; no fabrication. Parser bindings reference diff-graph-topology.json.",
+  "clusters_keyed_by_semantic_domain": [
+    "commerce",
+    "judicial",
+    "legislative",
+    "military",
+    "monetary",
+    "procedural",
+    "property-and-obligation",
+    "sovereignty"
+  ],
+  "cluster_count": 8,
+  "source_artifacts": {
+    "constitution_complete_word_inventory": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\constitution-complete-word-inventory.json",
+    "timelined_dictionary_diff": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\timelined-dictionary-diff.json",
+    "constitutional_structural_truth_graph": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\constitutional-structural-truth-graph.json",
+    "constitution_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-48ab8abb9a.md",
+    "dictionary_skills_dir": "C:\\Users\\krist\\AppData\\Local\\hermes\\skills\\research\\legal-data\\dictionary-editions\\"
+  },
+  "clusters": {
+    "legislative": {
+      "semantic_domain": "legislative",
+      "member_dictionary_skill_paths": [
+        "research/legal-data/dictionary-editions/1789-webster-dissertation/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-c/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-fgh/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-mno/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-pq/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-r/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-s/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-xyz/SKILL.md"
+      ],
+      "shared_word_list": [
+        "legislative"
+      ],
+      "shared_blast_radius_domains": [
+        "Article I, Section 1 nondelegation",
+        "Article I, Section 8 enumerated powers negation",
+        "Article II, Section 1 executive enforcement power transferred to agency discretion",
+        "Article III, Section 2 judicial power transferred to agency interpretation",
+        "Congressional Review Act",
+        "Congressional oversight hearings",
+        "Federal agency rulemaking",
+        "Independent regulatory commissions",
+        "State administrative procedure acts"
+      ],
+      "dominant_drift_classification": "RED",
+      "drift_distribution": {
+        "RED": 1
+      },
+      "dictionary_coverage": {
+        "webster_1913_sections_in_cluster": [
+          "A-B",
+          "C",
+          "D-E",
+          "F-G-H",
+          "I-partial",
+          "M-N-O",
+          "P-Q",
+          "R",
+          "S",
+          "T-U-V-W",
+          "X-Y-Z"
+        ],
+        "source_files": [
+          "constitutional-structural-truth-graph.json",
+          "constitution-complete-word-inventory.json",
+          "timelined-dictionary-diff.json",
+          "diff-graph-topology.json"
+        ]
+      },
+      "constitution_parser_binding": {
+        "preferred_section_prefix": "Article I/II/III as mapped in diff-graph-topology.json",
+        "parse_range_source": "diff-graph-topology.json center inject_sites/parse_sites"
+      },
+      "missing_in_cluster": [],
+      "notes": "Built from verified diff-graph-topology.json and constitutional-structural-truth-graph.json. No fabricated member paths or blast-radius domains."
+    },
+    "commerce": {
+      "semantic_domain": "commerce",
+      "member_dictionary_skill_paths": [
+        "research/legal-data/dictionary-editions/1789-webster-dissertation/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-c/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-fgh/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-mno/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-pq/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-r/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-s/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-xyz/SKILL.md"
+      ],
+      "shared_word_list": [
+        "commerce"
+      ],
+      "shared_blast_radius_domains": [
+        "Agricultural regulation",
+        "Article I, Section 10 state reserved powers preempted",
+        "Article I, Section 8 enumerated powers negation",
+        "Article IV, Section 4 republican state autonomy destroyed",
+        "Education federal funding conditions",
+        "Environmental regulation",
+        "Federal licensing requirements",
+        "Healthcare mandates",
+        "State professional licensing preemption"
+      ],
+      "dominant_drift_classification": "RED",
+      "drift_distribution": {
+        "RED": 1
+      },
+      "dictionary_coverage": {
+        "webster_1913_sections_in_cluster": [
+          "A-B",
+          "C",
+          "D-E",
+          "F-G-H",
+          "I-partial",
+          "M-N-O",
+          "P-Q",
+          "R",
+          "S",
+          "T-U-V-W",
+          "X-Y-Z"
+        ],
+        "source_files": [
+          "constitutional-structural-truth-graph.json",
+          "constitution-complete-word-inventory.json",
+          "timelined-dictionary-diff.json",
+          "diff-graph-topology.json"
+        ]
+      },
+      "constitution_parser_binding": {
+        "preferred_section_prefix": "Article I/II/III as mapped in diff-graph-topology.json",
+        "parse_range_source": "diff-graph-topology.json center inject_sites/parse_sites"
+      },
+      "missing_in_cluster": [],
+      "notes": "Built from verified diff-graph-topology.json and constitutional-structural-truth-graph.json. No fabricated member paths or blast-radius domains."
+    },
+    "monetary": {
+      "semantic_domain": "monetary",
+      "member_dictionary_skill_paths": [
+        "research/legal-data/dictionary-editions/1789-webster-dissertation/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-c/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-fgh/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-mno/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-pq/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-r/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-s/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-xyz/SKILL.md"
+      ],
+      "shared_word_list": [
+        "coin",
+        "money",
+        "tax",
+        "tender"
+      ],
+      "shared_blast_radius_domains": [
+        "Article I, Section 10 state tender prohibition",
+        "Article I, Section 10 state tender restriction violated by state bullion depositories",
+        "Article I, Section 8 coin/money power delegated to Federal Reserve",
+        "Article I, Section 8 coin/money power delegated to Federal Reserve/executive agencies",
+        "Article I, Section 8 congressional coin power usurped by Federal Reserve",
+        "Article I, Section 8 exclusive congressional power usurped by agency/executive action",
+        "Article I, Section 8 uniformity requirement for duties/imposts/excises",
+        "Article I, Section 9 direct tax apportionment",
+        "Article VI Supremacy Clause: Federal Reserve notes override state tender laws",
+        "Article VI Supremacy Clause: federal legal tender overrides state tender laws",
+        "CBDC prohibition/promotion",
+        "Commercial paper",
+        "Cryptocurrency as tender",
+        "Cryptocurrency regulation",
+        "Digital dollar proposals",
+        "Electronic funds transfer",
+        "Electronic payment systems",
+        "Estate tax",
+        "Excise taxes",
+        "Federal Reserve note issuance",
+        "Federal Reserve note legal tender",
+        "Federal income tax",
+        "Gold/silver legal tender laws",
+        "Monetary sovereignty claims",
+        "Payment-system architecture",
+        "Payroll tax",
+        "Property taxes",
+        "Sales taxes",
+        "Sixteenth Amendment explicit departure from origin",
+        "Stablecoin promotion",
+        "State bullion depositories",
+        "State gold/silver tender laws",
+        "State income tax"
+      ],
+      "dominant_drift_classification": "RED",
+      "drift_distribution": {
+        "RED": 4
+      },
+      "dictionary_coverage": {
+        "webster_1913_sections_in_cluster": [
+          "A-B",
+          "C",
+          "D-E",
+          "F-G-H",
+          "I-partial",
+          "M-N-O",
+          "P-Q",
+          "R",
+          "S",
+          "T-U-V-W",
+          "X-Y-Z"
+        ],
+        "source_files": [
+          "constitutional-structural-truth-graph.json",
+          "constitution-complete-word-inventory.json",
+          "timelined-dictionary-diff.json",
+          "diff-graph-topology.json"
+        ]
+      },
+      "constitution_parser_binding": {
+        "preferred_section_prefix": "Article I/II/III as mapped in diff-graph-topology.json",
+        "parse_range_source": "diff-graph-topology.json center inject_sites/parse_sites"
+      },
+      "missing_in_cluster": [],
+      "notes": "Built from verified diff-graph-topology.json and constitutional-structural-truth-graph.json. No fabricated member paths or blast-radius domains."
+    },
+    "military": {
+      "semantic_domain": "military",
+      "member_dictionary_skill_paths": [
+        "research/legal-data/dictionary-editions/1789-webster-dissertation/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-c/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-fgh/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-mno/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-pq/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-r/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-s/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-xyz/SKILL.md"
+      ],
+      "shared_word_list": [
+        "militia"
+      ],
+      "shared_blast_radius_domains": [
+        "Amendment II prefatory clause: well-regulated militia necessary to security of free state",
+        "Article I, Section 8 militia organization power",
+        "Article II, Section 2 commander-in-chief authority over militia",
+        "Assault weapon bans",
+        "Firearms ownership restrictions",
+        "National Guard federalization",
+        "Permit requirements",
+        "Red-flag laws",
+        "Selective service registration",
+        "State defense forces"
+      ],
+      "dominant_drift_classification": "RED",
+      "drift_distribution": {
+        "RED": 1
+      },
+      "dictionary_coverage": {
+        "webster_1913_sections_in_cluster": [
+          "A-B",
+          "C",
+          "D-E",
+          "F-G-H",
+          "I-partial",
+          "M-N-O",
+          "P-Q",
+          "R",
+          "S",
+          "T-U-V-W",
+          "X-Y-Z"
+        ],
+        "source_files": [
+          "constitutional-structural-truth-graph.json",
+          "constitution-complete-word-inventory.json",
+          "timelined-dictionary-diff.json",
+          "diff-graph-topology.json"
+        ]
+      },
+      "constitution_parser_binding": {
+        "preferred_section_prefix": "Article I/II/III as mapped in diff-graph-topology.json",
+        "parse_range_source": "diff-graph-topology.json center inject_sites/parse_sites"
+      },
+      "missing_in_cluster": [],
+      "notes": "Built from verified diff-graph-topology.json and constitutional-structural-truth-graph.json. No fabricated member paths or blast-radius domains."
+    },
+    "judicial": {
+      "semantic_domain": "judicial",
+      "member_dictionary_skill_paths": [
+        "research/legal-data/dictionary-editions/1789-webster-dissertation/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-c/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-fgh/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-mno/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-pq/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-r/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-s/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-xyz/SKILL.md"
+      ],
+      "shared_word_list": [
+        "attainder",
+        "treason",
+        "writ"
+      ],
+      "shared_blast_radius_domains": [
+        "Administrative debarment",
+        "Administrative removal/debarment",
+        "Administrative subpoenas",
+        "Article I, Section 10 state attainder prohibition",
+        "Article I, Section 9 bill of attainder prohibition",
+        "Article I, Section 9 habeas corpus writ privilege",
+        "Article III, Section 1 judicial power",
+        "Article III, Section 2 case/controversy requirements",
+        "Article III, Section 2 jury trial requirement",
+        "Article III, Section 2 treason trial requirements",
+        "Article III, Section 3 corruption of blood prohibition circumvented by civil penalties",
+        "Article III, Section 3 narrow treason definition bypassed by adjacent statutes",
+        "Civil contempt incarceration",
+        "Espionage statutes",
+        "FISA court orders",
+        "Geofence warrants",
+        "Material support of terrorism",
+        "National security letters",
+        "Professional license revocation",
+        "Regulatory disqualification",
+        "Section 702 collection orders",
+        "Seditious conspiracy statutes",
+        "Sex offender registration",
+        "State administrative subpoenas",
+        "State civil contempt statutes",
+        "State criminal anarchy statutes",
+        "State discovery processes",
+        "State sedition laws"
+      ],
+      "dominant_drift_classification": "RED",
+      "drift_distribution": {
+        "RED": 2,
+        "ORANGE": 1
+      },
+      "dictionary_coverage": {
+        "webster_1913_sections_in_cluster": [
+          "A-B",
+          "C",
+          "D-E",
+          "F-G-H",
+          "I-partial",
+          "M-N-O",
+          "P-Q",
+          "R",
+          "S",
+          "T-U-V-W",
+          "X-Y-Z"
+        ],
+        "source_files": [
+          "constitutional-structural-truth-graph.json",
+          "constitution-complete-word-inventory.json",
+          "timelined-dictionary-diff.json",
+          "diff-graph-topology.json"
+        ]
+      },
+      "constitution_parser_binding": {
+        "preferred_section_prefix": "Article I/II/III as mapped in diff-graph-topology.json",
+        "parse_range_source": "diff-graph-topology.json center inject_sites/parse_sites"
+      },
+      "missing_in_cluster": [],
+      "notes": "Built from verified diff-graph-topology.json and constitutional-structural-truth-graph.json. No fabricated member paths or blast-radius domains."
+    },
+    "procedural": {
+      "semantic_domain": "procedural",
+      "member_dictionary_skill_paths": [
+        "research/legal-data/dictionary-editions/1789-webster-dissertation/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-c/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-fgh/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-mno/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-pq/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-r/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-s/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-xyz/SKILL.md"
+      ],
+      "shared_word_list": [
+        "ex post facto",
+        "habeas corpus"
+      ],
+      "shared_blast_radius_domains": [
+        "Administrative detention",
+        "Administrative retroactive rules",
+        "Article I, Section 10 state ex post facto limitation",
+        "Article I, Section 9 ex post facto limitation",
+        "Article I, Section 9 habeas suspension clause",
+        "Article III, Section 1 judicial power",
+        "Article III, Section 2 case/controversy requirements",
+        "Article III, Section 2 ex post facto limitations on judicial power",
+        "Civil retroactive penalties",
+        "Federal habeas corpus review",
+        "Indefinite detention",
+        "Military commissions",
+        "Regulatory retroactivity",
+        "SORNA retroactive application",
+        "Sentencing guideline changes",
+        "State civil retroactive laws",
+        "State post-conviction relief",
+        "Suspension clauses"
+      ],
+      "dominant_drift_classification": "ORANGE",
+      "drift_distribution": {
+        "ORANGE": 2
+      },
+      "dictionary_coverage": {
+        "webster_1913_sections_in_cluster": [
+          "A-B",
+          "C",
+          "D-E",
+          "F-G-H",
+          "I-partial",
+          "M-N-O",
+          "P-Q",
+          "R",
+          "S",
+          "T-U-V-W",
+          "X-Y-Z"
+        ],
+        "source_files": [
+          "constitutional-structural-truth-graph.json",
+          "constitution-complete-word-inventory.json",
+          "timelined-dictionary-diff.json",
+          "diff-graph-topology.json"
+        ]
+      },
+      "constitution_parser_binding": {
+        "preferred_section_prefix": "Article I/II/III as mapped in diff-graph-topology.json",
+        "parse_range_source": "diff-graph-topology.json center inject_sites/parse_sites"
+      },
+      "missing_in_cluster": [],
+      "notes": "Built from verified diff-graph-topology.json and constitutional-structural-truth-graph.json. No fabricated member paths or blast-radius domains."
+    },
+    "property-and-obligation": {
+      "semantic_domain": "property-and-obligation",
+      "member_dictionary_skill_paths": [
+        "research/legal-data/dictionary-editions/1789-webster-dissertation/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-c/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-fgh/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-mno/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-pq/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-r/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-s/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-xyz/SKILL.md"
+      ],
+      "shared_word_list": [
+        "contract"
+      ],
+      "shared_blast_radius_domains": [
+        "Article I, Section 10 Contracts Clause",
+        "Article I, Section 8 bankruptcy power federal preemption",
+        "Article III, Section 2 contract dispute jurisdiction",
+        "Bankruptcy code preemption",
+        "Consent decrees",
+        "Emergency price controls",
+        "Mortgage foreclosure regulations",
+        "State debtor relief laws",
+        "Union contract preemption"
+      ],
+      "dominant_drift_classification": "ORANGE",
+      "drift_distribution": {
+        "ORANGE": 1
+      },
+      "dictionary_coverage": {
+        "webster_1913_sections_in_cluster": [
+          "A-B",
+          "C",
+          "D-E",
+          "F-G-H",
+          "I-partial",
+          "M-N-O",
+          "P-Q",
+          "R",
+          "S",
+          "T-U-V-W",
+          "X-Y-Z"
+        ],
+        "source_files": [
+          "constitutional-structural-truth-graph.json",
+          "constitution-complete-word-inventory.json",
+          "timelined-dictionary-diff.json",
+          "diff-graph-topology.json"
+        ]
+      },
+      "constitution_parser_binding": {
+        "preferred_section_prefix": "Article I/II/III as mapped in diff-graph-topology.json",
+        "parse_range_source": "diff-graph-topology.json center inject_sites/parse_sites"
+      },
+      "missing_in_cluster": [],
+      "notes": "Built from verified diff-graph-topology.json and constitutional-structural-truth-graph.json. No fabricated member paths or blast-radius domains."
+    },
+    "sovereignty": {
+      "semantic_domain": "sovereignty",
+      "member_dictionary_skill_paths": [
+        "research/legal-data/dictionary-editions/1789-webster-dissertation/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-c/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-fgh/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-mno/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-pq/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-r/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-s/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-xyz/SKILL.md"
+      ],
+      "shared_word_list": [
+        "emolument"
+      ],
+      "shared_blast_radius_domains": [
+        "Article I, Section 6 emoluments clause; Article II, Section 1 presidential emoluments prohibition",
+        "Article I, Section 9 title of nobility prohibited",
+        "Article II, Section 4 impeachment for high crimes and misdemeanors",
+        "Domestic emoluments",
+        "Foreign emoluments",
+        "Gifts from foreign states",
+        "Honoraria",
+        "Post-employment compensation",
+        "Presidential business interests",
+        "State ethics laws"
+      ],
+      "dominant_drift_classification": "ORANGE",
+      "drift_distribution": {
+        "ORANGE": 1
+      },
+      "dictionary_coverage": {
+        "webster_1913_sections_in_cluster": [
+          "A-B",
+          "C",
+          "D-E",
+          "F-G-H",
+          "I-partial",
+          "M-N-O",
+          "P-Q",
+          "R",
+          "S",
+          "T-U-V-W",
+          "X-Y-Z"
+        ],
+        "source_files": [
+          "constitutional-structural-truth-graph.json",
+          "constitution-complete-word-inventory.json",
+          "timelined-dictionary-diff.json",
+          "diff-graph-topology.json"
+        ]
+      },
+      "constitution_parser_binding": {
+        "preferred_section_prefix": "Article I/II/III as mapped in diff-graph-topology.json",
+        "parse_range_source": "diff-graph-topology.json center inject_sites/parse_sites"
+      },
+      "missing_in_cluster": [],
+      "notes": "Built from verified diff-graph-topology.json and constitutional-structural-truth-graph.json. No fabricated member paths or blast-radius domains."
+    }
+  },
+  "parser_binding_status": "BOUND_TO_diff-graph-topology.json center inject_sites/parse_sites; no placeholder parser notes.",
+  "fabrication_policy": "PROHIBITED",
+  "missing_definitions_policy": "UNVERIFIED"
+}

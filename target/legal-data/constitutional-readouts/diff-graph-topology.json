@@ -1,0 +1,854 @@
+{
+  "readout_name": "diff-graph-topology",
+  "generated_at": "2026-07-13",
+  "description": "Left-right diff graph topology connecting originalist meaning nodes to modern legal meaning nodes, with inject/parse sites bound to the classified constitutional string.",
+  "center": {
+    "title": "Constitution Source Text",
+    "source_path": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-48ab8abb9a.md",
+    "source_description": "Project Gutenberg eBook #5",
+    "note": "Exact character offsets are derivable from the classified term constitutional_text mappings against the Gutenberg plain text."
+  },
+  "nodes": [
+    {
+      "term": "legislative",
+      "id": "original_meaning_node_legislative",
+      "side": "left",
+      "label": "Original Meaning — legislative",
+      "drift_classification": "RED",
+      "definition": "Pertaining to law-making; the power to make rules rests in the legislature only, not in agencies or delegated bodies.",
+      "dictionary_source": [
+        "1913 A-B",
+        "1913 S"
+      ],
+      "inject_site": "inject_site_legislative_01",
+      "parse_site": "parse_site_legislative_01",
+      "sensitivity": "legislative"
+    },
+    {
+      "term": "legislative",
+      "id": "modern_meaning_node_legislative",
+      "side": "right",
+      "label": "Modern Legal Meaning — legislative",
+      "drift_classification": "RED",
+      "definition": "Legislative power is treated as delegable to agencies in many circuits; nondelegation doctrine is asserted but not uniformly enforced.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "5th Cir.",
+        "D.C. Cir.",
+        "9th Cir."
+      ],
+      "sensitivity": "legislative"
+    },
+    {
+      "term": "commerce",
+      "id": "original_meaning_node_commerce",
+      "side": "left",
+      "label": "Original Meaning — commerce",
+      "drift_classification": "RED",
+      "definition": "Trade or exchange between persons or states; not all economic activity.",
+      "dictionary_source": [
+        "1913 A-B"
+      ],
+      "inject_site": "inject_site_commerce_01",
+      "parse_site": "parse_site_commerce_01",
+      "sensitivity": "commerce"
+    },
+    {
+      "term": "commerce",
+      "id": "modern_meaning_node_commerce",
+      "side": "right",
+      "label": "Modern Legal Meaning — commerce",
+      "drift_classification": "RED",
+      "definition": "Commerce Clause interpreted to cover economic activity broadly, including intrastate activity with a substantial economic effect.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "6th Cir.",
+        "11th Cir.",
+        "D.C. Cir."
+      ],
+      "sensitivity": "commerce"
+    },
+    {
+      "term": "tax",
+      "id": "original_meaning_node_tax",
+      "side": "left",
+      "label": "Original Meaning — tax",
+      "drift_classification": "RED",
+      "definition": "A charge or burden imposed for the support of government; direct vs indirect distinction still controls apportionment/uniformity.",
+      "dictionary_source": [
+        "1913 D-E"
+      ],
+      "inject_site": "inject_site_monetary_01",
+      "parse_site": "parse_site_monetary_01",
+      "sensitivity": "tax"
+    },
+    {
+      "term": "tax",
+      "id": "modern_meaning_node_tax",
+      "side": "right",
+      "label": "Modern Legal Meaning — tax",
+      "drift_classification": "RED",
+      "definition": "Direct/indirect distinction survives in form, but 16th Amendment income tax and later administrative levies depart from apportionment requirement.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "uniform",
+      "circuits": [],
+      "sensitivity": "tax"
+    },
+    {
+      "term": "coin",
+      "id": "original_meaning_node_coin",
+      "side": "left",
+      "label": "Original Meaning — coin",
+      "drift_classification": "RED",
+      "definition": "To mint metallic money; Congress alone holds the power.",
+      "dictionary_source": [
+        "1913 A-B"
+      ],
+      "inject_site": "inject_site_monetary_02",
+      "parse_site": "parse_site_coin_01",
+      "sensitivity": "coin"
+    },
+    {
+      "term": "coin",
+      "id": "modern_meaning_node_coin",
+      "side": "right",
+      "label": "Modern Legal Meaning — coin",
+      "drift_classification": "RED",
+      "definition": "Congress holds coinage power, but Federal Reserve Act delegates monetary policy to a quasi-private system; state-level coinage remains prohibited.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "uniform",
+      "circuits": [],
+      "sensitivity": "coin"
+    },
+    {
+      "term": "tender",
+      "id": "original_meaning_node_tender",
+      "side": "left",
+      "label": "Original Meaning — tender",
+      "drift_classification": "RED",
+      "definition": "Legal tender: gold and silver coin only by express limit in original understanding.",
+      "dictionary_source": [
+        "1913 T-U-V-W"
+      ],
+      "inject_site": "inject_site_monetary_03",
+      "parse_site": "parse_site_tender_01",
+      "sensitivity": "tender"
+    },
+    {
+      "term": "tender",
+      "id": "modern_meaning_node_tender",
+      "side": "right",
+      "label": "Modern Legal Meaning — tender",
+      "drift_classification": "RED",
+      "definition": "States may not make anything but gold/silver tender for debts; federal fiat currency prevails under Supremacy Clause.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "No binding published circuit authority"
+      ],
+      "sensitivity": "tender"
+    },
+    {
+      "term": "militia",
+      "id": "original_meaning_node_militia",
+      "side": "left",
+      "label": "Original Meaning — militia",
+      "drift_classification": "RED",
+      "definition": "The body of citizens organized for local defense, separate from a standing army.",
+      "dictionary_source": [
+        "1913 M-N-O"
+      ],
+      "inject_site": "inject_site_military_01",
+      "parse_site": "parse_site_militia_01",
+      "sensitivity": "militia"
+    },
+    {
+      "term": "militia",
+      "id": "modern_meaning_node_militia",
+      "side": "right",
+      "label": "Modern Legal Meaning — militia",
+      "drift_classification": "RED",
+      "definition": "National Guard operates under federal control; selectee service exists; citizen-militia concept is not functional.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "2nd Cir.",
+        "9th Cir.",
+        "6th Cir."
+      ],
+      "sensitivity": "militia"
+    },
+    {
+      "term": "attainder",
+      "id": "original_meaning_node_attainder",
+      "side": "left",
+      "label": "Original Meaning — attainder",
+      "drift_classification": "RED",
+      "definition": "A legislative act punishing a named person or group without judicial trial.",
+      "dictionary_source": [
+        "1913 A-B"
+      ],
+      "inject_site": "inject_site_judicial_01",
+      "parse_site": "parse_site_attainder_01",
+      "sensitivity": "attainder"
+    },
+    {
+      "term": "attainder",
+      "id": "modern_meaning_node_attainder",
+      "side": "right",
+      "label": "Modern Legal Meaning — attainder",
+      "drift_classification": "RED",
+      "definition": "Civil contempt, regulatory disqualification, and registration regimes function as punishment without criminal trial in some applications; exact constitutional boundary is contested.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "9th Cir.",
+        "7th Cir.",
+        "D.C. Cir."
+      ],
+      "sensitivity": "attainder"
+    },
+    {
+      "term": "money",
+      "id": "original_meaning_node_money",
+      "side": "left",
+      "label": "Original Meaning — money",
+      "drift_classification": "RED",
+      "definition": "Metallic coin or specie; later fiat extensions depart from original baseline.",
+      "dictionary_source": [
+        "1913 D-E"
+      ],
+      "inject_site": "inject_site_monetary_04",
+      "parse_site": "parse_site_money_01",
+      "sensitivity": "money"
+    },
+    {
+      "term": "money",
+      "id": "modern_meaning_node_money",
+      "side": "right",
+      "label": "Modern Legal Meaning — money",
+      "drift_classification": "RED",
+      "definition": "Money includes Federal Reserve notes, electronic reserves, stablecoins, and CBDC proposals; 31 U.S.C. § 5102 makes FR notes legal tender.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "uniform",
+      "circuits": [],
+      "sensitivity": "money"
+    },
+    {
+      "term": "writ",
+      "id": "original_meaning_node_writ",
+      "side": "left",
+      "label": "Original Meaning — writ",
+      "drift_classification": "RED",
+      "definition": "A formal written order issued by a court; habeas corpus is the preserved example.",
+      "dictionary_source": [
+        "1913 T-U-V-W"
+      ],
+      "inject_site": "inject_site_judicial_02",
+      "parse_site": "parse_site_writ_01",
+      "sensitivity": "writ"
+    },
+    {
+      "term": "writ",
+      "id": "modern_meaning_node_writ",
+      "side": "right",
+      "label": "Modern Legal Meaning — writ",
+      "drift_classification": "RED",
+      "definition": "Administrative subpoenas, national security letters, geofence warrants, and FISA orders function as writ substitutes; judicial review is often delayed or secret.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "9th Cir.",
+        "2nd Cir.",
+        "D.C. Cir."
+      ],
+      "sensitivity": "writ"
+    },
+    {
+      "term": "treason",
+      "id": "original_meaning_node_treason",
+      "side": "left",
+      "label": "Original Meaning — treason",
+      "drift_classification": "ORANGE",
+      "definition": "Narrow: levying war against the United States or adhering to its enemies, with two-witness or confession rule.",
+      "dictionary_source": [
+        "1913 T-U-V-W"
+      ],
+      "inject_site": "inject_site_judicial_03",
+      "parse_site": "parse_site_treason_01",
+      "sensitivity": "treason"
+    },
+    {
+      "term": "treason",
+      "id": "modern_meaning_node_treason",
+      "side": "right",
+      "label": "Modern Legal Meaning — treason",
+      "drift_classification": "ORANGE",
+      "definition": "Treason remains narrow in name, but functionally replaced by seditious conspiracy, material support, and espionage statutes with similar penalties.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "uniform",
+      "circuits": [],
+      "sensitivity": "treason"
+    },
+    {
+      "term": "habeas corpus",
+      "id": "original_meaning_node_habeas corpus",
+      "side": "left",
+      "label": "Original Meaning — habeas corpus",
+      "drift_classification": "ORANGE",
+      "definition": "The Great Writ: produce the body; requires judicial authority to detain.",
+      "dictionary_source": [
+        "1913 F-G-H"
+      ],
+      "inject_site": "inject_site_procedural_01",
+      "parse_site": "parse_site_habeas_01",
+      "sensitivity": "habeas_corpus"
+    },
+    {
+      "term": "habeas corpus",
+      "id": "modern_meaning_node_habeas corpus",
+      "side": "right",
+      "label": "Modern Legal Meaning — habeas corpus",
+      "drift_classification": "ORANGE",
+      "definition": "Habeas remains available, but military commissions, indefinite-detention statutes, and post-9/11 suspension debates narrow its practical scope.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "D.C. Cir.",
+        "4th Cir.",
+        "9th Cir."
+      ],
+      "sensitivity": "habeas_corpus"
+    },
+    {
+      "term": "ex post facto",
+      "id": "original_meaning_node_ex post facto",
+      "side": "left",
+      "label": "Original Meaning — ex post facto",
+      "drift_classification": "ORANGE",
+      "definition": "A law making past conduct criminal or increasing punishment after the fact.",
+      "dictionary_source": [
+        "1913 F-G-H"
+      ],
+      "inject_site": "inject_site_procedural_02",
+      "parse_site": "parse_site_ex_post_facto_01",
+      "sensitivity": "ex_post_facto"
+    },
+    {
+      "term": "ex post facto",
+      "id": "modern_meaning_node_ex post facto",
+      "side": "right",
+      "label": "Modern Legal Meaning — ex post facto",
+      "drift_classification": "ORANGE",
+      "definition": "Criminal retroactivity is barred, but civil retroactive penalties, regulatory retroactivity, and SORNA-type application create contested gray zones.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "6th Cir.",
+        "9th Cir.",
+        "11th Cir."
+      ],
+      "sensitivity": "ex_post_facto"
+    },
+    {
+      "term": "contract",
+      "id": "original_meaning_node_contract",
+      "side": "left",
+      "label": "Original Meaning — contract",
+      "drift_classification": "ORANGE",
+      "definition": "A binding agreement; states may not impair the obligation of contracts.",
+      "dictionary_source": [
+        "1913 A-B"
+      ],
+      "inject_site": "inject_site_property_01",
+      "parse_site": "parse_site_contract_01",
+      "sensitivity": "contract"
+    },
+    {
+      "term": "contract",
+      "id": "modern_meaning_node_contract",
+      "side": "right",
+      "label": "Modern Legal Meaning — contract",
+      "drift_classification": "ORANGE",
+      "definition": "Contract Clause limits state impairment, but emergency price controls, mortgage moratoria, consent decrees, and bankruptcy preemption narrow the field.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "9th Cir.",
+        "6th Cir.",
+        "3rd Cir."
+      ],
+      "sensitivity": "contract"
+    },
+    {
+      "term": "emolument",
+      "id": "original_meaning_node_emolument",
+      "side": "left",
+      "label": "Original Meaning — emolument",
+      "drift_classification": "ORANGE",
+      "definition": "Profit, gain, or compensation from office; foreign and domestic emoluments clauses restrict officeholders.",
+      "dictionary_source": [
+        "1913 D-E"
+      ],
+      "inject_site": "inject_site_sovereignty_01",
+      "parse_site": "parse_site_emolument_01",
+      "sensitivity": "emolument"
+    },
+    {
+      "term": "emolument",
+      "id": "modern_meaning_node_emolument",
+      "side": "right",
+      "label": "Modern Legal Meaning — emolument",
+      "drift_classification": "ORANGE",
+      "definition": "Foreign emoluments through business interests and domestic emoluments through presidential properties are contested; OLC opinions narrow application.",
+      "dictionary_source": [],
+      "inject_site": "",
+      "parse_site": "",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "2nd Cir.",
+        "D.C. Cir.",
+        "4th Cir."
+      ],
+      "sensitivity": "emolument"
+    }
+  ],
+  "edges": [
+    {
+      "source": "original_meaning_node_legislative",
+      "target": "modern_meaning_node_legislative",
+      "label": "diff",
+      "drift": "RED",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "5th Cir.",
+        "D.C. Cir.",
+        "9th Cir."
+      ]
+    },
+    {
+      "source": "original_meaning_node_commerce",
+      "target": "modern_meaning_node_commerce",
+      "label": "diff",
+      "drift": "RED",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "6th Cir.",
+        "11th Cir.",
+        "D.C. Cir."
+      ]
+    },
+    {
+      "source": "original_meaning_node_tax",
+      "target": "modern_meaning_node_tax",
+      "label": "diff",
+      "drift": "RED",
+      "circuit_status": "uniform",
+      "circuits": []
+    },
+    {
+      "source": "original_meaning_node_coin",
+      "target": "modern_meaning_node_coin",
+      "label": "diff",
+      "drift": "RED",
+      "circuit_status": "uniform",
+      "circuits": []
+    },
+    {
+      "source": "original_meaning_node_tender",
+      "target": "modern_meaning_node_tender",
+      "label": "diff",
+      "drift": "RED",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "No binding published circuit authority"
+      ]
+    },
+    {
+      "source": "original_meaning_node_militia",
+      "target": "modern_meaning_node_militia",
+      "label": "diff",
+      "drift": "RED",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "2nd Cir.",
+        "9th Cir.",
+        "6th Cir."
+      ]
+    },
+    {
+      "source": "original_meaning_node_attainder",
+      "target": "modern_meaning_node_attainder",
+      "label": "diff",
+      "drift": "RED",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "9th Cir.",
+        "7th Cir.",
+        "D.C. Cir."
+      ]
+    },
+    {
+      "source": "original_meaning_node_money",
+      "target": "modern_meaning_node_money",
+      "label": "diff",
+      "drift": "RED",
+      "circuit_status": "uniform",
+      "circuits": []
+    },
+    {
+      "source": "original_meaning_node_writ",
+      "target": "modern_meaning_node_writ",
+      "label": "diff",
+      "drift": "RED",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "9th Cir.",
+        "2nd Cir.",
+        "D.C. Cir."
+      ]
+    },
+    {
+      "source": "original_meaning_node_treason",
+      "target": "modern_meaning_node_treason",
+      "label": "diff",
+      "drift": "ORANGE",
+      "circuit_status": "uniform",
+      "circuits": []
+    },
+    {
+      "source": "original_meaning_node_habeas corpus",
+      "target": "modern_meaning_node_habeas corpus",
+      "label": "diff",
+      "drift": "ORANGE",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "D.C. Cir.",
+        "4th Cir.",
+        "9th Cir."
+      ]
+    },
+    {
+      "source": "original_meaning_node_ex post facto",
+      "target": "modern_meaning_node_ex post facto",
+      "label": "diff",
+      "drift": "ORANGE",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "6th Cir.",
+        "9th Cir.",
+        "11th Cir."
+      ]
+    },
+    {
+      "source": "original_meaning_node_contract",
+      "target": "modern_meaning_node_contract",
+      "label": "diff",
+      "drift": "ORANGE",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "9th Cir.",
+        "6th Cir.",
+        "3rd Cir."
+      ]
+    },
+    {
+      "source": "original_meaning_node_emolument",
+      "target": "modern_meaning_node_emolument",
+      "label": "diff",
+      "drift": "ORANGE",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "2nd Cir.",
+        "D.C. Cir.",
+        "4th Cir."
+      ]
+    }
+  ],
+  "inject_sites": [
+    {
+      "id": "inject_site_legislative_01",
+      "term": "legislative",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_legislative",
+      "constitution_locations": [
+        "Article I Section 1"
+      ]
+    },
+    {
+      "id": "inject_site_commerce_01",
+      "term": "commerce",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_commerce",
+      "constitution_locations": [
+        "Article I Section 8"
+      ]
+    },
+    {
+      "id": "inject_site_monetary_01",
+      "term": "tax",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_tax",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article I Section 9"
+      ]
+    },
+    {
+      "id": "inject_site_monetary_02",
+      "term": "coin",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_coin",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article I Section 10"
+      ]
+    },
+    {
+      "id": "inject_site_monetary_03",
+      "term": "tender",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_tender",
+      "constitution_locations": [
+        "Article I Section 10"
+      ]
+    },
+    {
+      "id": "inject_site_military_01",
+      "term": "militia",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_militia",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article II Section 2"
+      ]
+    },
+    {
+      "id": "inject_site_judicial_01",
+      "term": "attainder",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_attainder",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article I Section 10"
+      ]
+    },
+    {
+      "id": "inject_site_monetary_04",
+      "term": "money",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_money",
+      "constitution_locations": [
+        "Article I Section 8"
+      ]
+    },
+    {
+      "id": "inject_site_judicial_02",
+      "term": "writ",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_writ",
+      "constitution_locations": [
+        "Article I Section 9"
+      ]
+    },
+    {
+      "id": "inject_site_judicial_03",
+      "term": "treason",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_treason",
+      "constitution_locations": [
+        "Article III Section 3"
+      ]
+    },
+    {
+      "id": "inject_site_procedural_01",
+      "term": "habeas corpus",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_habeas corpus",
+      "constitution_locations": [
+        "Article I Section 9"
+      ]
+    },
+    {
+      "id": "inject_site_procedural_02",
+      "term": "ex post facto",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_ex post facto",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article I Section 10"
+      ]
+    },
+    {
+      "id": "inject_site_property_01",
+      "term": "contract",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_contract",
+      "constitution_locations": [
+        "Article I Section 10"
+      ]
+    },
+    {
+      "id": "inject_site_sovereignty_01",
+      "term": "emolument",
+      "mode": "inject_site",
+      "target_node": "original_meaning_node_emolument",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article II Section 1"
+      ]
+    }
+  ],
+  "parse_sites": [
+    {
+      "id": "parse_site_legislative_01",
+      "term": "legislative",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 1"
+      ]
+    },
+    {
+      "id": "parse_site_commerce_01",
+      "term": "commerce",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 8"
+      ]
+    },
+    {
+      "id": "parse_site_monetary_01",
+      "term": "tax",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article I Section 9"
+      ]
+    },
+    {
+      "id": "parse_site_coin_01",
+      "term": "coin",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article I Section 10"
+      ]
+    },
+    {
+      "id": "parse_site_tender_01",
+      "term": "tender",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 10"
+      ]
+    },
+    {
+      "id": "parse_site_militia_01",
+      "term": "militia",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article II Section 2"
+      ]
+    },
+    {
+      "id": "parse_site_attainder_01",
+      "term": "attainder",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article I Section 10"
+      ]
+    },
+    {
+      "id": "parse_site_money_01",
+      "term": "money",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 8"
+      ]
+    },
+    {
+      "id": "parse_site_writ_01",
+      "term": "writ",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 9"
+      ]
+    },
+    {
+      "id": "parse_site_treason_01",
+      "term": "treason",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article III Section 3"
+      ]
+    },
+    {
+      "id": "parse_site_habeas_01",
+      "term": "habeas corpus",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 9"
+      ]
+    },
+    {
+      "id": "parse_site_ex_post_facto_01",
+      "term": "ex post facto",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article I Section 10"
+      ]
+    },
+    {
+      "id": "parse_site_contract_01",
+      "term": "contract",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 10"
+      ]
+    },
+    {
+      "id": "parse_site_emolument_01",
+      "term": "emolument",
+      "mode": "parse_site",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article II Section 1"
+      ]
+    }
+  ],
+  "conclusion": {
+    "summary": "14-classified-term left-right diff topology. inject_site_* IDs mark left-originalist nodes; parse_site_* IDs mark terms parsed from the classified constitutional string.",
+    "source": "constitutional-structural-truth-graph.json + originalist-meaning.json + modern-legal-meaning.json"
+  }
+}

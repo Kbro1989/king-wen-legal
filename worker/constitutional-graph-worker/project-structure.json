@@ -1,0 +1,74 @@
+{
+  "project_name": "constitutional-semantic-graph",
+  "project_root": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data",
+  "status": "complete",
+  "source_artifacts": {
+    "constitutional_truth_graph": "constitutional-structural-truth-graph.json",
+    "word_inventory": "constitution-complete-word-inventory.json",
+    "timelined_dictionary_diff": "timelined-dictionary-diff.json",
+    "constitution_text_cache": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-48ab8abb9a.md"
+  },
+  "dictionary_edition_skills": {
+    "skill_root": "C:\\Users\\krist\\AppData\\Local\\hermes\\skills\\research\\legal-data\\dictionary-editions",
+    "skills": [
+      {"name": "1789-webster-dissertation", "skill_path": "research/legal-data/dictionary-editions/1789-webster-dissertation/SKILL.md", "gutenberg_source": "www.gutenberg.org-acbbf766e7.md"},
+      {"name": "1913-webster-a-b", "skill_path": "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md", "gutenberg_source": "www.gutenberg.org-2e70926e5b.md"},
+      {"name": "1913-webster-c", "skill_path": "research/legal-data/dictionary-editions/1913-webster-c/SKILL.md", "gutenberg_source": "www.gutenberg.org-pg661-c-section.md"},
+      {"name": "1913-webster-de", "skill_path": "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md", "gutenberg_source": "www.gutenberg.org-pg662-de-section.md"},
+      {"name": "1913-webster-fgh", "skill_path": "research/legal-data/dictionary-editions/1913-webster-fgh/SKILL.md", "gutenberg_source": "www.gutenberg.org-pg663-fgh-section.md"},
+      {"name": "1913-webster-mno", "skill_path": "research/legal-data/dictionary-editions/1913-webster-mno/SKILL.md", "gutenberg_source": "www.gutenberg.org-pg665-mno-section.md"},
+      {"name": "1913-webster-pq", "skill_path": "research/legal-data/dictionary-editions/1913-webster-pq/SKILL.md", "gutenberg_source": "www.gutenberg.org-pg666-pq-section.md"},
+      {"name": "1913-webster-r", "skill_path": "research/legal-data/dictionary-editions/1913-webster-r/SKILL.md", "gutenberg_source": "www.gutenberg.org-pg667-r-section.md"},
+      {"name": "1913-webster-s", "skill_path": "research/legal-data/dictionary-editions/1913-webster-s/SKILL.md", "gutenberg_source": "www.gutenberg.org-pg668-s-section.md"},
+      {"name": "1913-webster-tuvw", "skill_path": "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md", "gutenberg_source": "www.gutenberg.org-00e3e8e1b8.md"},
+      {"name": "1913-webster-xyz", "skill_path": "research/legal-data/dictionary-editions/1913-webster-xyz/SKILL.md", "gutenberg_source": "www.gutenberg.org-dbc62300e1.md"}
+    ],
+    "total_skills": 11
+  },
+  "skill_cluster_manifest": "skill-clusters/manifest.json",
+  "clusters": {
+    "legislative": {"domains": ["legislative"], "words": ["legislative"], "drift": "RED"},
+    "commerce": {"domains": ["commerce"], "words": ["commerce"], "drift": "RED"},
+    "monetary": {"domains": ["monetary"], "words": ["coin", "money", "tax", "tender"], "drift": "RED"},
+    "military": {"domains": ["military"], "words": ["militia"], "drift": "RED"},
+    "judicial": {"domains": ["judicial"], "words": ["attainder", "treason", "writ"], "drift": "RED"},
+    "procedural": {"domains": ["procedural"], "words": ["ex post facto", "habeas corpus"], "drift": "ORANGE"},
+    "property-and-obligation": {"domains": ["property-and-obligation"], "words": ["contract"], "drift": "ORANGE"},
+    "sovereignty": {"domains": ["sovereignty"], "words": ["emolument"], "drift": "ORANGE"}
+  },
+  "diff_graph_topology": "diff-graph-topology.json",
+  "constitutional_readouts": {
+    "originalist": "constitutional-readouts/originalist-meaning.json",
+    "modern": "constitutional-readouts/modern-legal-meaning.json",
+    "diff": "constitutional-readouts/diff-readout.json"
+  },
+  "inject_bindings": {
+    "artifact": "inject-bindings/constitution-inject-bindings.json",
+    "term_count": 14,
+    "parser_binding_count": 14,
+    "fabrication_policy": "PROHIBITED",
+    "future_integrations": [
+      {"target": "kingwen", "status": "planned_but_not_prepped", "note": "Constitutional pipeline -> King Wen attachment is allowed per user directive, but not yet prepared for implementation; timelined inputs must remain source-truth separated."}
+    ]
+  },
+  "parasitic_rules": {
+    "skill": "C:\\Users\\krist\\AppData\\Local\\hermes\\skills\\rules\\SKILL.md",
+    "cron_jobs": {
+      "rules-skill-check": "c7334fe1d515",
+      "rules-session-check": "26db21d7b03a"
+    }
+  },
+  "completion_checklist": {
+    "constitutional_truth_graph": true,
+    "word_inventory_with_variable_influence": true,
+    "skill_cluster_manifest_with_real_paths": true,
+    "diff_graph_topology": true,
+    "dual_constitutional_readouts": true,
+    "diff_readout": true,
+    "inject_bindings": true,
+    "dictionary_edition_skills": true,
+    "rules_skill_with_cron": true,
+    "cross_pollution_audit": true,
+    "timeline_separation_verified": true
+  }
+}

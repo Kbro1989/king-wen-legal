@@ -48,6 +48,38 @@ target/legal-data/
 </details>
 
 <details>
+<summary><strong>target/ (legal learn extracts + worker outputs)</strong></summary>
+
+```text
+target/
+├── webster-constitutional-definitions-learn-extract.jsonl
+└── webster-gutenberg-constitution-cross-reference.json
+```
+
+| File | Purpose |
+|---|---|
+| `webster-constitutional-definitions-learn-extract.jsonl` | Webster-to-constitution learn extract stream |
+| `webster-gutenberg-constitution-cross-reference.json` | Gutenberg/Webster cross-reference map |
+
+</details>
+
+<details>
+<summary><strong>tools/constitutional-graph-tool/</strong></summary>
+
+Rust/Python subproject that generates constitutional graph artifacts.
+Schemas, data scripts, and build tooling for the hosted constitutional semantic graph.
+
+</details>
+
+<details>
+<summary><strong>worker/constitutional-graph-worker/</strong></summary>
+
+Cloudflare Worker + Node build pipeline for the constitutional graph web surface.
+Includes `src/index.js`, `wrangler.toml`, `package.json`, and the artifact output chain.
+
+</details>
+
+---
 <summary><strong>src/openjarvas/</strong></summary>
 
 OpenJarvas-side workspace tree.

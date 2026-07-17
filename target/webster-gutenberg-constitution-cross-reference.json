@@ -1,0 +1,373 @@
+[
+  {
+    "term": "sovereign / sovereignty",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1787-1791",
+      "constitutional_context": "U.S. Constitution ratification and Bill of Rights adoption",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "Late-18th-century constitutional meaning treated sovereignty as bounded popular authority, split between federal and state, with both limited by enumerated powers.",
+    "present_interpretation": "Modern usage splits between state-issued money advocates, federal CBDC prohibition advocates, and private stablecoin promoters; all use 'sovereignty' while moving the actual exercise of power elsewhere.",
+    "semantic_shift": "From bounded popular sovereignty → rhetorical sovereignty attached to private payment rails, state bullion depositories, or digital-dollar bans.",
+    "constitutional_intent_conflict": "Constitutional sovereignty is popular sovereignty, bounded by enumerated powers. Modern monetary-sovereignty narratives redirect sovereign functions to private payment processors while retaining 'sovereignty' rhetoric.",
+    "legal_misdirect": "State gold/silver legal tender bills and state bullion depositories invoke 'sovereignty' but create state-level CBDC-like rails. Federal CBDC ban plus private stablecoin promotion is described as 'sovereignty' while removing state issuance capability.",
+    "legal_position_delta": "Origin: sovereign power is exercised by public institutions under law. Present: sovereign language is preserved while the exercise is delegated to private or proxy-state actors.",
+    "status_point": "Both federal and state 'monetary sovereignty' actions expand state/parent-private control over money while claiming to reduce it. Conflict is structural, not partisan.",
+    "source_verified_bindings": {
+      "eo_digital_assets_2025": "https://www.whitehouse.gov/presidential-actions/2025/01/strengthening-american-leadership-in-digital-financial-technology/",
+      "hr1919": "https://www.congress.gov/bill/119th-congress/house-bill/1919",
+      "florida_hb999": "https://www.flsenate.gov/Session/Bill/2025/999",
+      "west_virginia_sb413": "https://www.wvlegislature.gov/Bill_Status/2025/bills/sb/SB413_intro.pdf",
+      "monetary_sovereignty_framework": "https://www.law.cornell.edu/uscode/text/31/5102"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "sovereignty", "monetary-sovereignty", "legal-misdirect"]
+  },
+  {
+    "term": "commerce",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1787",
+      "constitutional_context": "U.S. Constitution Article I, Section 8, Commerce Clause",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "Commerce meant exchange among communities and states; the Clause was aimed at preventing state trade barriers and discriminations.",
+    "present_interpretation": "Commerce is treated as a general federal regulatory field covering money transmission, digital assets, and payment-system design.",
+    "semantic_shift": "From specific interstate trade → all economic activity and payment-system architecture.",
+    "constitutional_intent_conflict": "Commerce Clause was intended as a negative against state trade barriers, not as a general federal police power over all economic activity.",
+    "legal_misdirect": "Modern Commerce Clause doctrine supports both CBDC bans and stablecoin promotion under the same clause, depending on political direction. The clause becomes a rubber stamp for either federal mandate or federal prohibition.",
+    "legal_position_delta": "Origin: limited federal negative power. Present: broad federal positive power over money and digital assets.",
+    "status_point": "Commerce Clause scope has expanded from trade barrier negation to all economic activity regulation.",
+    "source_verified_bindings": {
+      "eo_digital_assets_2025": "https://www.whitehouse.gov/presidential-actions/2025/01/strengthening-american-leadership-in-digital-financial-technology/",
+      "hr1919": "https://www.congress.gov/bill/119th-congress/house-bill/1919"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "commerce-clause", "article-i-section-8", "legal-misdirect"]
+  },
+  {
+    "term": "militia",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1791",
+      "constitutional_context": "U.S. Constitution Second Amendment",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "Militia was the whole people capable of arms, organized locally, trained collectively, and independent of central standing armies.",
+    "present_interpretation": "Militia is treated as obsolete, ceremonial, or synonymous with National Guard under federal control.",
+    "semantic_shift": "From universal citizen military readiness → selective, regulated, state-controlled exception.",
+    "constitutional_intent_conflict": "Second Amendment prefatory clause ties arms right to well-regulated militia for free-state security. Modern law treats militia as National Guard or obsolete.",
+    "legal_misdirect": "Assault-weapon bans, red-flag orders, and permit regimes reframe 'bear arms' as conditional privilege disconnected from militia-trained-band meaning. Historical fines/disarmament for loyalty crimes is ignored.",
+    "legal_position_delta": "Origin: arms-bearing tied to collective free-state security. Present: arms-bearing treated as individualized privilege subject to administrative control.",
+    "status_point": "Militia meaning has been inverted from citizen military readiness to regulated exclusion.",
+    "source_verified_bindings": {
+      "usc922g": "https://www.law.cornell.edu/uscode/text/18/922"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "amendment-2", "militia", "militia_fines", "loyalist_disarmament", "treason_disarmament"]
+  },
+  {
+    "term": "treason",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1787",
+      "constitutional_context": "U.S. Constitution Article III, Section 3",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "Treason was understood as the gravest crime against the state itself, requiring intentional betrayal; the Framers narrowed it to prevent political weaponization.",
+    "present_interpretation": "Treason is rarely charged as treason; functionally replaced by broader statutes with similar penalties.",
+    "semantic_shift": "From narrow betrayal-of-state offense → broad national-security and ideological-prosecution toolkit.",
+    "constitutional_intent_conflict": "Article III treason requires levying war or adhering to enemies, giving them aid and comfort; narrow, intentional definition.",
+    "legal_misdirect": "Treason is rarely charged; adjacent statutes like seditious conspiracy, material support, espionage carry similar penalties without constitutional protections.",
+    "legal_position_delta": "Origin: treason protected defendants from overcharge. Present: similar outcomes reached through wider statutes without the same procedural protections.",
+    "status_point": "Treason text remains but functional prosecution shifted to broader statutory tools.",
+    "source_verified_bindings": {
+      "usc922g": "https://www.law.cornell.edu/uscode/text/18/922"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "article-iii", "treason", "treason_disarmament"]
+  },
+  {
+    "term": "due process / law of the land",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-355c4c959d.md",
+      "constitutional_context_date": "1791",
+      "constitutional_context": "U.S. Constitution Fifth Amendment",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "Due process meant general, public, pre-existing law; not arbitrary command, not retroactive deprivation, not secret adjudication.",
+    "present_interpretation": "Due process is often procedural only; substantive claims are narrowed, financial/payment-system changes are treated as policy rather than rights deprivation.",
+    "semantic_shift": "From general law safeguard → limited procedural check on administrative action.",
+    "constitutional_intent_conflict": "Fifth and Fourteenth Amendments require due process of law before life, liberty, or property is taken.",
+    "legal_misdirect": "CBDC ban, stablecoin delegation, and civil asset forfeiture operate without individualized due process for affected payment classes and asset holders.",
+    "legal_position_delta": "Origin: law of the land shielded property/liberty from arbitrary reclassification. Present: payment-system redesign and asset-class reassignment can skip individualized process.",
+    "status_point": "Due process is selectively applied; financial/payment-system changes bypass adversarial hearing.",
+    "source_verified_bindings": {
+      "cbdc_ban": "https://www.federalregister.gov/",
+      "hr1919": "https://www.congress.gov/bill/119th-congress/house-bill/1919"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "amendment-5", "amendment-14", "due-process", "legal-misdirect"]
+  },
+  {
+    "term": "warrant / probable cause / seizure / search",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1791",
+      "constitutional_context": "U.S. Constitution Fourth Amendment",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "Warrants required particularity, oath, and judicial nexus to specific persons/places/things; search and seizure protections were personal-property safeguards.",
+    "present_interpretation": "Warrant doctrine is hollowed out by NSLs, section 702, geofence warrants, administrative subpoenas, and bulk collection; probable cause is replaced by algorithmic risk scores.",
+    "semantic_shift": "From particularized judicial warrant → generalized administrative and electronic suspicion.",
+    "constitutional_intent_conflict": "Fourth Amendment requires particular warrants; modern surveillance substitutes programmatic authorization for particularized suspicion.",
+    "legal_misdirect": "National security letters, section 702 collection, geofence warrants, and administrative subpoenas weaken particularity and judicial warrant requirement.",
+    "legal_position_delta": "Origin: warrant clause protected persons from general searches. Present: search/ seizure can be administrative, bulk, and predictive.",
+    "status_point": "Search and seizure protections are formally intact but practically narrowed.",
+    "source_verified_bindings": {
+      "usc922g": "https://www.law.cornell.edu/uscode/text/18/922"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "amendment-4", "search", "seizure", "warrant", "probable-cause"]
+  },
+  {
+    "term": "cruel and unusual punishments",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1791",
+      "constitutional_context": "U.S. Constitution Eighth Amendment",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "Punishments had to be proportionate, known in advance, and not torture-like; 'unusual' meant outside established common-law practice.",
+    "present_interpretation": "Evolving-de standards doctrine allows judge-found 'unusual' labels against historical punishments; modern sentences can be expanded through enhancements and noncapital mandatory minimums.",
+    "semantic_shift": "From historically bounded punishment concept → malleable contemporary judicial norm.",
+    "constitutional_intent_conflict": "Eighth Amendment prohibits cruel and unusual punishments.",
+    "legal_misdirect": "Punitive sentencing enhancements, solitary confinement duration, and noncapital mandatory minimums are contested under evolving standards.",
+    "legal_position_delta": "Origin: fixed penalties and common-law continuity. Present: judge-determined evolving standards can expand punishment scope.",
+    "status_point": "Eighth Amendment doctrine is now a moving target rather than a historical constraint.",
+    "source_verified_bindings": {
+      "usc922g": "https://www.law.cornell.edu/uscode/text/18/922"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "amendment-8", "cruel-unusual", "punishment"]
+  },
+  {
+    "term": "excessive bail / excessive fines",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1791",
+      "constitutional_context": "U.S. Constitution Eighth Amendment",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "Bail and fines were to be calibrated to individual circumstances, not used as punitive substitutes where no individualized hearing occurred.",
+    "present_interpretation": "Fixed civil fines, commercial disqualifications, and bail schedules override individualized excessiveness review.",
+    "semantic_shift": "From individualized non-excessiveness safeguard → statutory flat-rate penalty tool.",
+    "constitutional_intent_conflict": "Eighth Amendment excessive bail and excessive fines clauses.",
+    "legal_misdirect": "Commercial driver-license disqualifications, civil fines, and bail schedules override individualized excessiveness review.",
+    "legal_position_delta": "Origin: bail and fines required judicial calibration. Present: statutory and administrative schedules dominate.",
+    "status_point": "Excessiveness review has become formal rather than substantive.",
+    "source_verified_bindings": {
+      "usc922g": "https://www.law.cornell.edu/uscode/text/18/922"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "amendment-8", "bail", "fine"]
+  },
+  {
+    "term": "counsel / confrontation / compulsory process / witness",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1791",
+      "constitutional_context": "U.S. Constitution Sixth Amendment",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "Sixth Amendment rights were trial-centered: real counsel, live witnesses, face-to-face confrontation, and compulsory process against the state.",
+    "present_interpretation": "Gag orders, sealed identities, classified evidence, ex parte submissions, and digital/remote testimony weaken or bypass these rights.",
+    "semantic_shift": "From adversarial trial entitlement → managed disclosure regime favoring administrative and security exceptions.",
+    "constitutional_intent_conflict": "Sixth Amendment guarantees assistance of counsel, compulsory process, confrontation, and witness rights.",
+    "legal_misdirect": "Gag orders, sealed witness identities, classified evidence ex parte, and hearing-impaired compulsory-process failures.",
+    "legal_position_delta": "Origin: defense-facing trial rights. Present: state-facing trial management often overrides defense process.",
+    "status_point": "Trial rights remain formally but are functionally narrowed by classification and secrecy regimes.",
+    "source_verified_bindings": {
+      "usc922g": "https://www.law.cornell.edu/uscode/text/18/922"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "amendment-6", "counsel", "witness", "confront", "compulsory"]
+  },
+  {
+    "term": "assembly / petition / establishment / press / speech / religion",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1791",
+      "constitutional_context": "U.S. Constitution First Amendment",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "First Amendment cluster protected collective religious dissent, printed dissent, public assembly, and petition without prior license.",
+    "present_interpretation": "Speech, assembly, and petition are heavily time-place-manner regulated; establishment is interpreted as non-endorsement rather than noninterference; press protections are weakened by secrecy and platform-carriage mandates.",
+    "semantic_shift": "From pre-political rights of dissent → managed expressive activity subject to state licensing and criminal-tech wrappers.",
+    "constitutional_intent_conflict": "First Amendment protects religious establishment noninterference, free exercise, speech, press, assembly, and petition.",
+    "legal_misdirect": "Permit requirements for assembly, compelled speech frameworks, platform-carriage mandates, and foreign-influence registration regimes.",
+    "legal_position_delta": "Origin: individual/collective dissent rights. Present: expressive activity regulated unless authorized.",
+    "status_point": "First Amendment cluster is formally protected but administratively constrained.",
+    "source_verified_bindings": {
+      "eo_digital_assets_2025": "https://www.whitehouse.gov/presidential-actions/2025/01/strengthening-american-leadership-in-digital-financial-technology/",
+      "hr1919": "https://www.congress.gov/bill/119th-congress/house-bill/1919"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "amendment-1", "assembly", "petition", "establishment", "press", "speech", "religion"]
+  },
+  {
+    "term": "bear / arms",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1791",
+      "constitutional_context": "U.S. Constitution Second Amendment",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "To bear arms meant to carry weapons in a manner connected with militia service and common defense.",
+    "present_interpretation": "Bear arms is interpreted as individualized self-defense or sport, disconnected from collective militia purpose.",
+    "semantic_shift": "From collective military readiness → individualized privilege conditioning.",
+    "constitutional_intent_conflict": "Second Amendment protects individual right to keep and bear arms connected to militia security.",
+    "legal_misdirect": "Assault-weapon bans, red-flag orders, and permit regimes reframe 'bear arms' as conditional privilege disconnected from militia-trained-band meaning.",
+    "legal_position_delta": "Origin: militia-centered arms bearing. Present: permit-centered individual arms bearing.",
+    "status_point": "Arms discourse is dominated by regulatory framing rather than militia-security framing.",
+    "source_verified_bindings": {
+      "usc922g": "https://www.law.cornell.edu/uscode/text/18/922"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "amendment-2", "bear-arms", "militia_fines", "loyalist_disarmament", "treason_disarmament"]
+  },
+  {
+    "term": "amendment / article V",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1787",
+      "constitutional_context": "U.S. Constitution Article V",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "Amendment required deliberate supermajority process because constitutional meaning was treated as structured, fixed, and publicly known.",
+    "present_interpretation": "Amendment by judicial interpretation, administrative practice, and evolving-standards doctrine bypasses Article V.",
+    "semantic_shift": "From formal constitutional change → informal doctrinal evolution.",
+    "constitutional_intent_conflict": "Article V amendment process requires supermajority state legislature or convention ratification.",
+    "legal_misdirect": "Modern substantive due-process 'amendment by interpretation' functions as judicially created constitutional change.",
+    "legal_position_delta": "Origin: formal amendment only. Present: informal doctrinal amendment common.",
+    "status_point": "Article V is textually intact but functionally supplemented and often ignored.",
+    "source_verified_bindings": {
+      "article_v": "https://constitution.congress.gov/constitution/article-5/"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "article-v", "amendment", "judicial-amendment"]
+  },
+  {
+    "term": "executive / legislative / judicial / federal / state separation",
+    "temporal_spine": {
+      "origin_source_date": "1789",
+      "origin_source": "Noah Webster, Dissertations on the English Language, Boston: Isaiah Thomas and Company, 1789",
+      "origin_source_gutenberg_id": "45738",
+      "origin_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "modern_copy_date": "1913",
+      "modern_copy_source": "Webster Revised Unabridged Dictionary, C. & G. Merriam Co., Springfield, Mass., 1913",
+      "modern_copy_gutenberg_ids": ["664", "669"],
+      "modern_copy_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "constitutional_context_date": "1787",
+      "constitutional_context": "U.S. Constitution Articles I-III and federalism structure",
+      "verification_timestamp": "2026-07-13",
+      "spine_position": "origin"
+    },
+    "origin_interpretation": "Separation of powers was structural: legislature makes law, executive enforces, judiciary interprets; federal and state spheres were distinct.",
+    "present_interpretation": "Administrative agencies fuse legislative, executive, and judicial functions; federal power routinely preempts state police powers.",
+    "semantic_shift": "From separated branches and dual sovereignty → blended agency power with federal supremacy.",
+    "constitutional_intent_conflict": "Separation of powers among legislature, executive, and judiciary; federalism balance between national and state governments.",
+    "legal_misdirect": "Administrative state combines legislative, executive, and judicial functions in agencies.",
+    "legal_position_delta": "Origin: separated powers and dual sovereignty. Present: administrative fusion and federal dominance.",
+    "status_point": "Nondelegation doctrine is asserted but rarely enforced; agency rulemaking is functionally legislation.",
+    "source_verified_bindings": {
+      "administrative_state_practice": "https://www.law.cornell.edu/uscode/text/5/706"
+    },
+    "learn_tags": ["webster-1789", "webster-1913", "separation-of-powers", "administrative-state", "federalism"]
+  }
+]

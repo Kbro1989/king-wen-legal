@@ -1,0 +1,478 @@
+{
+  "status": "complete",
+  "artifact_contract_version": "1.0.0",
+  "fabrication_policy": "PROHIBITED",
+  "stable_identifier": "constitution-inject-bindings-v1",
+  "source_manifest": {
+    "constitution_source": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-48ab8abb9a.md",
+    "dictionary_sources": [
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-acbbf766e7.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-2e70926e5b.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-pg661-c-section.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-pg662-de-section.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-pg663-fgh-section.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-355c4c959d.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-pg665-mno-section.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-pg666-pq-section.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-pg667-r-section.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-pg668-s-section.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+      "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-dbc62300e1.md"
+    ],
+    "skill_cluster_manifest": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\skill-clusters\\manifest.json",
+    "diff_graph_topology": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\diff-graph-topology.json",
+    "originalist_readout": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\constitutional-readouts\\originalist-meaning.json",
+    "modern_readout": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\constitutional-readouts\\modern-legal-meaning.json",
+    "diff_readout": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\constitutional-readouts\\diff-readout.json"
+  },
+  "term_identity_kits": {
+    "legislative": {
+      "canonical_term": "legislative",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-s/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 5,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_legislative_01",
+      "parse_site": "parse_site_legislative_01",
+      "cluster": "legislative",
+      "drift_classification": "RED",
+      "state_crosswalk": [
+        "All 50 states delegate legislative authority to administrative agencies through state APAs and ethics laws."
+      ]
+    },
+    "commerce": {
+      "canonical_term": "commerce",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md",
+        "research/legal-data/dictionary-editions/1913-webster-c/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 5,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_commerce_01",
+      "parse_site": "parse_site_commerce_01",
+      "cluster": "commerce",
+      "drift_classification": "RED",
+      "state_crosswalk": [
+        "State economic licensing, intrastate regulation, and professional licensing all subject to federal commerce preemption."
+      ]
+    },
+    "tax": {
+      "canonical_term": "tax",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_monetary_01",
+      "parse_site": "parse_site_monetary_01",
+      "cluster": "monetary",
+      "drift_classification": "RED",
+      "state_crosswalk": [
+        "All 50 states impose income, sales, property, and excise taxes; state tax systems mirror federal expansions."
+      ]
+    },
+    "coin": {
+      "canonical_term": "coin",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_monetary_02",
+      "parse_site": "parse_site_coin_01",
+      "cluster": "monetary",
+      "drift_classification": "RED",
+      "state_crosswalk": [
+        "State-level coinage prohibitions remain; Federal Reserve and CBDC proposals operate at federal level."
+      ]
+    },
+    "tender": {
+      "canonical_term": "tender",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_monetary_03",
+      "parse_site": "parse_site_tender_01",
+      "cluster": "monetary",
+      "drift_classification": "RED",
+      "state_crosswalk": [
+        "State tender restrictions vary; federal fiat currency prevails under Supremacy Clause."
+      ]
+    },
+    "militia": {
+      "canonical_term": "militia",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-mno/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_military_01",
+      "parse_site": "parse_site_militia_01",
+      "cluster": "military",
+      "drift_classification": "RED",
+      "state_crosswalk": [
+        "National Guard federalization, selective service, and state defense force structures vary by state."
+      ]
+    },
+    "attainder": {
+      "canonical_term": "attainder",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_judicial_01",
+      "parse_site": "parse_site_attainder_01",
+      "cluster": "judicial",
+      "drift_classification": "RED",
+      "state_crosswalk": [
+        "Civil contempt and administrative disqualification regimes vary; functional equivalents to attainder persist in many states."
+      ]
+    },
+    "money": {
+      "canonical_term": "money",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_monetary_04",
+      "parse_site": "parse_site_money_01",
+      "cluster": "monetary",
+      "drift_classification": "RED",
+      "state_crosswalk": [
+        "State money-laundering and payment-system laws exist, but monetary base is federal."
+      ]
+    },
+    "writ": {
+      "canonical_term": "writ",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_judicial_02",
+      "parse_site": "parse_site_writ_01",
+      "cluster": "judicial",
+      "drift_classification": "RED",
+      "state_crosswalk": [
+        "State courts retain writ-like processes, but federal administrative subpoenas and secret procedures bypass traditional writs."
+      ]
+    },
+    "treason": {
+      "canonical_term": "treason",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-tuvw/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_judicial_03",
+      "parse_site": "parse_site_treason_01",
+      "cluster": "judicial",
+      "drift_classification": "ORANGE",
+      "state_crosswalk": [
+        "State treason statutes are rare; national-security adjacent statutes are federal."
+      ]
+    },
+    "habeas corpus": {
+      "canonical_term": "habeas corpus",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-fgh/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_procedural_01",
+      "parse_site": "parse_site_habeas_01",
+      "cluster": "procedural",
+      "drift_classification": "ORANGE",
+      "state_crosswalk": [
+        "State habeas review exists, but military commissions and indefinite-detention statutes narrow practical scope."
+      ]
+    },
+    "ex post facto": {
+      "canonical_term": "ex post facto",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-fgh/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_procedural_02",
+      "parse_site": "parse_site_ex_post_facto_01",
+      "cluster": "procedural",
+      "drift_classification": "ORANGE",
+      "state_crosswalk": [
+        "State retroactive civil/regulatory penalties are contested; circuit split persists."
+      ]
+    },
+    "contract": {
+      "canonical_term": "contract",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-a-b/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_property_01",
+      "parse_site": "parse_site_contract_01",
+      "cluster": "property-and-obligation",
+      "drift_classification": "ORANGE",
+      "state_crosswalk": [
+        "State emergency powers, mortgage moratoria, and consent decrees modify contract obligations."
+      ]
+    },
+    "emolument": {
+      "canonical_term": "emolument",
+      "definition_sources": [
+        "research/legal-data/dictionary-editions/1913-webster-de/SKILL.md"
+      ],
+      "definition_score": {
+        "interaction_flags": [
+          "found_in_1913_section",
+          "found_in_1789_dissertation",
+          "has_blast_radius",
+          "has_parser_site",
+          "has_variable_influence"
+        ],
+        "score": 3,
+        "selection_rule": "highest score wins; tie broken by blast_radius_domain_count"
+      },
+      "inject_site": "inject_site_sovereignty_01",
+      "parse_site": "parse_site_emolument_01",
+      "cluster": "sovereignty",
+      "drift_classification": "ORANGE",
+      "state_crosswalk": [
+        "State ethics laws vary; foreign/domestic emolument enforcement remains contested at federal level."
+      ]
+    }
+  },
+  "parser_bindings": [
+    {
+      "term": "legislative",
+      "inject_site": "inject_site_legislative_01",
+      "parse_site": "parse_site_legislative_01",
+      "constitution_offset": 2311
+    },
+    {
+      "term": "commerce",
+      "inject_site": "inject_site_commerce_01",
+      "parse_site": "parse_site_commerce_01",
+      "constitution_offset": null,
+      "note": "implied clause; not present verbatim"
+    },
+    {
+      "term": "tax",
+      "inject_site": "inject_site_monetary_01",
+      "parse_site": "parse_site_monetary_01",
+      "constitution_offset": 3286
+    },
+    {
+      "term": "coin",
+      "inject_site": "inject_site_monetary_02",
+      "parse_site": "parse_site_coin_01",
+      "constitution_offset": 10941
+    },
+    {
+      "term": "tender",
+      "inject_site": "inject_site_monetary_03",
+      "parse_site": "parse_site_tender_01",
+      "constitution_offset": null,
+      "note": "implied clause; not present verbatim"
+    },
+    {
+      "term": "militia",
+      "inject_site": "inject_site_military_01",
+      "parse_site": "parse_site_militia_01",
+      "constitution_offset": 12257
+    },
+    {
+      "term": "attainder",
+      "inject_site": "inject_site_judicial_01",
+      "parse_site": "parse_site_attainder_01",
+      "constitution_offset": null,
+      "note": "implied; derived from Article I Sections 9-10"
+    },
+    {
+      "term": "money",
+      "inject_site": "inject_site_monetary_04",
+      "parse_site": "parse_site_money_01",
+      "constitution_offset": 37765
+    },
+    {
+      "term": "writ",
+      "inject_site": "inject_site_judicial_02",
+      "parse_site": "parse_site_writ_01",
+      "constitution_offset": 19543
+    },
+    {
+      "term": "treason",
+      "inject_site": "inject_site_judicial_03",
+      "parse_site": "parse_site_treason_01",
+      "constitution_offset": null,
+      "note": "implied; Article III Section 3"
+    },
+    {
+      "term": "habeas corpus",
+      "inject_site": "inject_site_procedural_01",
+      "parse_site": "parse_site_habeas_01",
+      "constitution_offset": null,
+      "note": "implied; Article I Section 9"
+    },
+    {
+      "term": "ex post facto",
+      "inject_site": "inject_site_procedural_02",
+      "parse_site": "parse_site_ex_post_facto_01",
+      "constitution_offset": 13503
+    },
+    {
+      "term": "contract",
+      "inject_site": "inject_site_property_01",
+      "parse_site": "parse_site_contract_01",
+      "constitution_offset": 26481
+    },
+    {
+      "term": "emolument",
+      "inject_site": "inject_site_sovereignty_01",
+      "parse_site": "parse_site_emolument_01",
+      "constitution_offset": null,
+      "note": "implied; Foreign/Domestic Emoluments Clauses"
+    }
+  ],
+  "crossref_validation": {
+    "source_to_artifact": "Gutenberg cache excerpts -> dictionary SKILL.md -> diff-graph-topology.json -> inject-bindings -> parser",
+    "future_integrations": [
+      {
+        "target": "kingwen",
+        "status": "planned_but_not_prepped",
+        "note": "Constitutional pipeline -> King Wen attachment is allowed per user directive, but not yet prepared for implementation; timelined inputs must remain source-truth separated."
+      }
+    ],
+    "gaps": [
+      "1789 source is dissertation, not full lexicon",
+      "1913 local cache contains A-B, C, D-E, F-G-H, I-partial, M-N-O, P-Q, R, S, T-U-V-W, X-Y-Z only",
+      "Some constitution terms are implied clauses rather than verbatim occurrences",
+      "Variable-influence edges depend on token overlap; ambiguous overlaps remain UNVERIFIED"
+    ],
+    "fabrication_policy": "PROHIBITED",
+    "missing_policy": "MISSING gaps are recorded explicitly; no invented definitions or offsets"
+  }
+}

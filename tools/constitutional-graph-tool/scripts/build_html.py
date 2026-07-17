@@ -1,0 +1,275 @@
+#!/usr/bin/env python3
+import json
+from pathlib import Path
+
+root = Path(r'C:\Users\krist\Desktop\constitutional-graph-tool')
+payload = json.loads((root / 'graph_data.json').read_text(encoding='utf-8'))
+data_json = json.dumps(payload, ensure_ascii=True)
+html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Constitutional Law Semantic Graph</title>
+<style>
+  :root {{
+    --bg: #0b1220;
+    --panel: #0f172a;
+    --border: #1f2937;
+    --text: #e5e7eb;
+    --muted: #94a3b8;
+  }}
+  * {{ box-sizing: border-box; }}
+  html, body {{ height: 100%; }}
+  body {{
+    margin: 0;
+    background: radial-gradient(circle at top left, #0f1c33, #0b1220 40%);
+    color: var(--text);
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  }}
+  .wrap {{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+  }}
+  h1 {{
+    margin: 0 0 4px;
+    font-size: 26px;
+    letter-spacing: 0.2px;
+  }}
+  .sub {{
+    color: var(--muted);
+    margin: 0 0 14px;
+    font-size: 14px;
+  }}
+  .legend {{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 10px 0 18px;
+  }}
+  .legend .item {{ display:inline-flex; align-items:center; gap:8px; font-size:12px; color:#d1d5db; }}
+  .dot {{ width:10px; height:10px; border-radius:50%; box-shadow: 0 0 0 1px rgba(0,0,0,0.4); }}
+  .grid {{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 18px;
+  }}
+  @media (max-width: 980px) {{ .grid {{ grid-template-columns: 1fr; }} }}
+  .card {{
+    background: linear-gradient(180deg, rgba(17,24,39,0.7), rgba(17,24,39,0.4));
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px;
+  }}
+  .card h2 {{ margin: 0 0 10px; font-size: 15px; color:#cbd5e1; }}
+  .canvas-wrap {{ position: relative; width: 100%; height: 520px; }}
+  canvas {{ display: block; width: 100%; height: 100%; }}
+  table {{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    color: #e5e7eb;
+  }}
+  th, td {{
+    text-align: left;
+    padding: 8px 9px;
+    border-bottom: 1px solid #1f2937;
+    vertical-align: top;
+  }}
+  thead th {{ color: #9ca3af; font-weight: 600; }}
+  .source-link {{ color:#7dd3fc; text-decoration: underline; }}
+  .badge {{
+    display: inline-block;
+    padding: 3px 7px;
+    border-radius: 999px;
+    font-size: 11px;
+    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(17,24,39,0.6);
+  }}
+  .badge-red {{ color:#fca5a5; border-color:#7f1d1d; background:#2a0f0f; }}
+  .badge-partial {{ color:#fde68a; border-color:#78350f; background:#271e0d; }}
+  .badge-compliant {{ color:#86efac; border-color:#064e3b; background:#0a2a1d; }}
+  .badge-unverified {{ color:#cbd5e1; border-color:#1f2937; background:#0b1220; }}
+  .note {{ margin-top: 10px; color: var(--muted); font-size: 12px; font-style: italic; }}
+  .empty {{ color:#6b7280; font-size:12px; }}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Constitutional Law Semantic Graph</h1>
+  <p class="sub">U.S. constitutional sources -> constitutionally mandated federal law -> Supreme Court interpretive nodes -> state/practice conflict topology</p>
+  <div class="legend" id="legend"></div>
+  <div class="grid">
+    <div class="card">
+      <h2>Graph - Federal Mandate &amp; Judicial Interpretation Topology</h2>
+      <div class="canvas-wrap"><canvas id="g"></canvas></div>
+      <div class="note">Read: green yields valid federal mandate under constitutional text; purple yields judicial enforcement; red yields state direct conflict under Supremacy Clause.</div>
+    </div>
+    <div class="card">
+      <h2>Source-Indexed State &amp; Practice Conflict Map</h2>
+      <div style="overflow:auto; max-height: 520px;">
+        <table>
+          <thead>
+            <tr><th>Jurisdiction / Domain</th><th>Nature of Conflict</th><th>Constitutional Basis</th><th>Status</th><th>Source / Citation</th></tr>
+          </thead>
+          <tbody id="state-table"></tbody>
+        </table>
+      </div>
+      <div class="note">Scope note: each row is tied to a node/edge pair in the graph with a clickable source where available. This map includes state constitutional provisions, federal statutes, judicial practices, and Crown-governance lineage conflicts.</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const GRAPH_DATA = {data_json};
+const nodes = GRAPH_DATA.nodes;
+const edges = GRAPH_DATA.edges;
+const stateRows = GRAPH_DATA.stateRows;
+const sourceMap = GRAPH_DATA.sourceMap;
+
+(function(){{
+  const legend = [
+    {{color:'#a78bfa', label:'US Constitution Source'}},
+    {{color:'#60a5fa', label:'Federal Law / Statute'}},
+    {{color:'#34d399', label:'SCOTUS Interpretation'}},
+    {{color:'#fbbf24', label:'State Constitutional Provision'}},
+    {{color:'#f87171', label:'Direct Conflict / Preemption Risk'}},
+    {{color:'#4ade80', label:'Compliant / Struck Down'}},
+    {{color:'#e879f9', label:'US Bar Practice Registry'}},
+    {{color:'#f472b6', label:'British Bar Registry / BSB'}},
+    {{color:'#fb923c', label:'Founding / Historical Analogue'}},
+    {{color:'#22d3ee', label:'Practice / Governance Lineage'}},
+  ];
+  const el = document.getElementById('legend');
+  legend.forEach(item=>{{
+    const span = document.createElement('span');
+    span.className = 'item';
+    span.innerHTML = `<span class="dot" style="background:${{item.color}}"></span>${{item.label}}`;
+    el.appendChild(span);
+  }});
+}})();
+
+function sourceFor(nodeId) {{
+  return sourceMap[nodeId] || null;
+}}
+
+(function drawGraph(){{
+  const canvas = document.getElementById('g');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return;
+
+  const colors = {{
+    constitution: '#a78bfa',
+    law: '#60a5fa',
+    scotus: '#34d399',
+    state: '#fbbf24',
+    conflict: '#f87171',
+    compliant: '#4ade80',
+    registry: '#e879f9',
+    history: '#fb923c',
+    practice: '#22d3ee'
+  }};
+
+  const fit = () => {{
+    const wrap = canvas.parentElement;
+    const w = wrap ? wrap.clientWidth : canvas.clientWidth;
+    const h = wrap ? wrap.clientHeight : canvas.clientHeight;
+    canvas.width = Math.max(320, w);
+    canvas.height = Math.max(320, h);
+    return {{w: canvas.width, h: canvas.height}};
+  }};
+
+  function coords(i, total, w, h) {{
+    const margin = 64;
+    const cx = w/2, cy = h/2;
+    const rx = w/2 - margin, ry = h/2 - margin;
+    const angle = (i/total) * Math.PI * 2;
+    return {{x: cx + Math.cos(angle)*rx*0.9, y: cy + Math.sin(angle)*ry*0.9}};
+  }}
+
+  let positions = nodes.map((n,i)=>coords(i,nodes.length,fit().w,fit().h));
+  const nodeMap = new Map(nodes.map((n,i)=>[n.id,i]));
+  const links = edges.map(([a,b,type])=>({{from:nodeMap.get(a),to:nodeMap.get(b),type}})).filter(e=>e.from!=null&&e.to!=null);
+
+  const linkStroke = {{
+    AUTHORIZES:'#334155', MANDATES:'#0ea5e9', TENSIONS:'#f59e0b', DIRECT_CONFLICT:'#ef4444',
+    PREEMPTION_RISK:'#f97316', OVERRULED_BY:'#f43f5e', ENFORCES:'#10b981', GIVES_RISE_TO:'#8b5cf6',
+    UNDERLIES:'#14b8a6', CONSTRAINS:'#6366f1', STRENGTHENS:'#22c55e', OVERLAPS:'#eab308',
+    BORDERS:'#fb923c', LIMITS:'#fbbf24', ENABLES_CHALLENGES:'#fb923c', TENSION:'#f59e0b',
+    FOLLOWS:'#64748b', IMPLEMENTS:'#0ea5e9', APPLIES_TO:'#22d3ee', STATE_CONSTITUTIONAL_FAITH_ISSUE:'#facc15',
+    CHALLENGES:'#f97316', INCORPORATED_IN:'#34d399', LIMITS_STATE_ENFORCEMENT:'#ef4444', CONFLICT:'#ef4444',
+  }};
+
+  function draw(){{
+    const {{w,h}}=fit();
+    ctx.clearRect(0,0,w,h);
+    ctx.fillStyle='#0b1220'; ctx.fillRect(0,0,w,h);
+    ctx.strokeStyle='#111f3a'; ctx.lineWidth=1;
+    const step=36;
+    for(let x=0;x<w;x+=step){{ ctx.beginPath(); ctx.moveTo(x,0); ctx.lineTo(x,h); ctx.stroke(); }}
+    for(let y=0;y<h;y+=step){{ ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(w,y); ctx.stroke(); }}
+
+    links.forEach(l=>{{
+      const a=positions[l.from],b=positions[l.to];
+      ctx.strokeStyle=linkStroke[l.type]||'#475569';
+      ctx.lineWidth = String(l.type).includes('DIRECT') ? 1.8 : (String(l.type).includes('TENSIONS') ? 1.4 : 1);
+      ctx.setLineDash(String(l.type).includes('TENSIONS') ? [6,4] : []);
+      ctx.beginPath(); ctx.moveTo(a.x,a.y); ctx.lineTo(b.x,b.y); ctx.stroke(); ctx.setLineDash([]);
+      const mx=(a.x+b.x)/2, my=(a.y+b.y)/2;
+      ctx.fillStyle='#7dd3fc'; ctx.font='9px ui-sans-serif, system-ui';
+      ctx.fillText(l.type, mx+4, my-4);
+    }});
+
+    positions.forEach((p,i)=>{{
+      const n = nodes[i];
+      ctx.fillStyle = colors[n.group] || '#64748b';
+      ctx.strokeStyle='#0b1220'; ctx.lineWidth=2;
+      ctx.beginPath(); ctx.arc(p.x,p.y,7,0,Math.PI*2); ctx.fill(); ctx.stroke();
+      if(n.conflict && n.conflict==='RED'){{
+        ctx.strokeStyle='#ef4444'; ctx.lineWidth=2;
+        ctx.beginPath(); ctx.arc(p.x,p.y,10,0,Math.PI*2); ctx.stroke();
+      }}
+      const src = sourceFor(n.id);
+      ctx.fillStyle='#f8fafc'; ctx.font='10px ui-sans-serif, system-ui'; ctx.fillText(n.label, p.x+12, p.y+4);
+      ctx.fillStyle='#7dd3fc'; ctx.font='9px ui-sans-serif, system-ui'; ctx.fillText(src || n.sub, p.x+12, p.y+15);
+    }});
+  }}
+  draw();
+
+  let dragging=false, dragIdx=-1;
+  canvas.addEventListener('mousedown', e=>{{
+    const r=canvas.getBoundingClientRect();
+    const mx=e.clientX-r.left, my=e.clientY-r.top;
+    let best=-1, bestD=18;
+    positions.forEach((p,i)=>{{const d=Math.hypot(p.x-mx,p.y-my); if(d<bestD){{bestD=d;best=i;}}}});
+    if(best>=0){{dragging=true;dragIdx=best;canvas.style.cursor='grabbing';}}
+  }});
+  window.addEventListener('mousemove', e=>{{
+    if(!dragging) return;
+    const r=canvas.getBoundingClientRect();
+    positions[dragIdx]={{x:e.clientX-r.left, y:e.clientY-r.top}};
+    draw();
+  }});
+  window.addEventListener('mouseup', ()=>{{ dragging=false; dragIdx=-1; canvas.style.cursor='grab'; }});
+}})();
+
+(function renderTable(){{
+  const tbody = document.querySelector('#state-table tbody');
+  if (!tbody) return;
+  const legend = {{RED:'<span class="badge badge-red">Direct Conflict</span>',PARTIAL:'<span class="badge badge-partial">Partial / Challenge</span>',COMPLIANT:'<span class="badge badge-compliant">Compliant / Struck</span>',UNVERIFIED:'<span class="badge badge-unverified">Unverified</span>'}};
+  stateRows.forEach(r=>{{
+    const tr=document.createElement('tr');
+    const raw=r[4]||'';
+    const src=raw && raw.startsWith('http') ? `<a class="source-link" href="${{raw}}" target="_blank" rel="noopener">${{raw}}</a>` : raw;
+    tr.innerHTML=`<td>${{r[0]}}</td><td>${{r[1]}}</td><td>${{r[2]}}</td><td>${{legend[r[3]]||r[3]}}</td><td>${{src}}</td>`;
+    tbody.appendChild(tr);
+  }});
+}})();
+</script>
+</body>
+</html>
+'''
+(root / 'target' / 'constitutional-semantic-graph.html').write_text(html, encoding='utf-8')
+print('wrote', root / 'target' / 'constitutional-semantic-graph.html')

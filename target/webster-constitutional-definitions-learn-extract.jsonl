@@ -1,0 +1,212 @@
+[
+  {
+    "term": "sovereign",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "sovereign. [petty king or sovereign.]",
+    "constitutional_application": "Constitutional 'sovereignty' is bounded, not absolute; the people are the source of sovereignty and states cede specific sovereign powers.",
+    "modern_statutory_deviation": "Modern administrative agencies exercise sovereign-like powers without direct electoral accountability.",
+    "legal_standpoint_conflict": "Conflict between state sovereignty assertions (gold/silver legal tender, state bullion depositories) and federal exclusive monetary power.",
+    "learn_tags": ["webster-1913", "constitutional-operators", "sovereignty"]
+  },
+  {
+    "term": "sovereignty",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "sov·e·reign·ty n. divine sovereignty; theocracy.",
+    "constitutional_application": "US constitutional sovereignty is popular sovereignty, not divine right monarchy.",
+    "modern_statutory_deviation": "Monetary sovereignty narratives redirect to private stablecoin issuers while retaining sovereignty language.",
+    "legal_standpoint_conflict": "Claimed sovereignty is exercised by private payment processors, not by Treasury or Congress.",
+    "learn_tags": ["webster-1913", "constitutional-operators", "sovereignty", "information-warfare"]
+  },
+  {
+    "term": "commerce",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "commerce is an exchange of commodities... trade.",
+    "constitutional_application": "Commerce Clause grants Congress power to regulate interstate exchange.",
+    "modern_statutory_deviation": "Modern statutory commerce expansions include digital assets, stablecoins, crypto transfers, and nonfungible instrumentalities.",
+    "legal_standpoint_conflict": "Federal commerce power is used both to ban CBDCs and to enable private digital-dollar proxies.",
+    "learn_tags": ["webster-1913", "article-i-section-8", "commerce-clause"]
+  },
+  {
+    "term": "contract",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "contract by which the use of a thing is set, or let, for hire; a lease. Civil Law.",
+    "constitutional_application": "Contracts Clause restricts state impairment of contract obligations.",
+    "modern_statutory_deviation": "Modern administrative consent decrees and emergency price controls blur contract obligation boundaries.",
+    "legal_standpoint_conflict": "State debtor-protection bans conflict with creditor contract rights under Contracts Clause.",
+    "learn_tags": ["webster-1913", "article-i-section-10", "contracts-clause"]
+  },
+  {
+    "term": "militia",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "to train the militia to the manual exercise; to train soldiers to the use of arms. Our trained bands, which are the trustiest and most proper strength of a free nation. Milton.",
+    "constitutional_application": "Second Amendment prefatory clause refers to a well-regulated militia as necessary to free-state security.",
+    "modern_statutory_deviation": "Modern militia definition drift includes national guard status, selective service categories, and firearms training-requirement statutes.",
+    "legal_standpoint_conflict": "Historical trained-band meaning conflicts with modern state regulation of arms through permit, assault-weapon, and red-flag regimes.",
+    "learn_tags": ["webster-1913", "amendment-2", "militia-fines", "loyalist-disarmament", "treason-disarmament"]
+  },
+  {
+    "term": "treason",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "tradition n. The act of delivering into the hands of another; delivery... from tradere to give up, transmit. See Treason, Traitor.",
+    "constitutional_application": "Article III treason requires levying war or adhering to enemies, giving them aid and comfort; narrow, intentional definition.",
+    "modern_statutory_deviation": "Modern treason is often redirected to seditious conspiracy, material support of terrorism, or espionage statutes.",
+    "legal_standpoint_conflict": "Treason text remains narrow but domestic prosecution uses adjacent statutes to achieve similar penalties.",
+    "learn_tags": ["webster-1913", "article-iii", "treason-disarmament"]
+  },
+  {
+    "term": "bill",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "In parliamentary usage, to lay on the table; to postpone, by a formal vote, the consideration of (a bill, motion, or the like) till called for, or indefinitely.",
+    "constitutional_application": "Article I legislative process bills of attainder, ex post facto, export taxes, etc.",
+    "modern_statutory_deviation": "Modern omnibus spending bills, continuing resolutions, and rulemaking bypass traditional single-subject bill structure.",
+    "legal_standpoint_conflict": "Single-subject intent conflicts with omnibus appropriations and emergency rule packages.",
+    "learn_tags": ["webster-1913", "article-i-section-9", "bill-process"]
+  },
+  {
+    "term": "attainder",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-2e70926e5b.md",
+    "definition_excerpt": "attainder. Abbott.",
+    "constitutional_application": "Bills of attainder are prohibited; legislative punishment without judicial trial.",
+    "modern_statutory_deviation": "Modern redirected punishment through civil contempt, regulatory disqualification, and registration regimes.",
+    "legal_standpoint_conflict": "Civil contempt incarceration functions as punishment without criminal trial, functionally equivalent to attainder.",
+    "learn_tags": ["webster-1913", "article-i-section-9", "contempt_practice", "judicial_immunity_practice"]
+  },
+  {
+    "term": "due process",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-355c4c959d.md",
+    "definition_excerpt": "law of the land, due process of law; the general law of the land.",
+    "constitutional_application": "Fifth and Fourteenth Amendments guarantee due process of law; procedural and substantive dimensions.",
+    "modern_statutory_deviation": "CBDC ban and stablecoin delegation occur via executive order plus statute without adjudicated due process for affected payment classes.",
+    "legal_standpoint_conflict": "Monetary sovereignty policy changes bypass due process review for holders, exchanges, and payment processors.",
+    "learn_tags": ["webster-1913", "amendment-5", "amendment-14", "cbdc_ban", "stablecoin_sovereignty"]
+  },
+  {
+    "term": "warrant",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "warrant, authority.",
+    "constitutional_application": "Fourth Amendment requires warrants to be judicially sanctioned and particular.",
+    "modern_statutory_deviation": "National security letters, section 702 collection, geofence warrants, and administrative subpoenas weaken particularity and judicial warrant requirement.",
+    "legal_standpoint_conflict": "Administrative search doctrine expands warrant exceptions beyond original Fourth Amendment intent.",
+    "learn_tags": ["webster-1913", "amendment-4", "search", "seizure"]
+  },
+  {
+    "term": "probable",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "probable expedient, any temperament that can be found in things of this nature, so disputable on their side.",
+    "constitutional_application": "Probable cause is required for warrant issuance.",
+    "modern_statutory_deviation": "Risk-assessment algorithms, predictive policing, and bulk metadata collection replace individualized probable cause.",
+    "legal_standpoint_conflict": "Algorithmic suspicion conflicts with individualized judicial determination requirement.",
+    "learn_tags": ["webster-1913", "amendment-4", "warrant"]
+  },
+  {
+    "term": "seizure",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "seizure; apprehension.",
+    "constitutional_application": "Fourth Amendment protects persons, houses, papers, and effects against unreasonable seizures.",
+    "modern_statutory_deviation": "Asset forfeiture, digital-device seizure at border without warrant, and civil seizure regimes expand state taking power.",
+    "legal_standpoint_conflict": "Civil forfeiture is a modern property seizure without criminal process, contrary to original seizure meaning.",
+    "learn_tags": ["webster-1913", "amendment-4", "property"]
+  },
+  {
+    "term": "cruel / unusual",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "cruel word her tender heart so thrilled... unusual extension upward.",
+    "constitutional_application": "Eighth Amendment prohibits cruel and unusual punishments.",
+    "modern_statutory_deviation": "Punitive sentencing enhancements, solitary confinement duration, and noncapital mandatory minimums are contested under evolving standards.",
+    "legal_standpoint_conflict": "Evolving-de standards doctrine conflicts with original public meaning of 'cruel and unusual.'",
+    "learn_tags": ["webster-1913", "amendment-8", "punishment"]
+  },
+  {
+    "term": "bail / fine",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "fine, smooth stuff of silk, having usually the wavy luster called watering.",
+    "constitutional_application": "Eighth Amendment excessive bail and excessive fines clauses.",
+    "modern_statutory_deviation": "Commercial driver-license disqualifications, civil fines, and bail schedules override individualized excessiveness review.",
+    "legal_standpoint_conflict": "Modern statutory fixed-fine regimes bypass judicial excessiveness determination.",
+    "learn_tags": ["webster-1913", "amendment-8", "bail", "fine"]
+  },
+  {
+    "term": "counsel / witness / confront / compulsory",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "counsel; to testify... to make a solemn declaration under oath or affirmation... Compulsory power; violence.",
+    "constitutional_application": "Sixth Amendment guarantees assistance of counsel, compulsory process, confrontation, and witness rights.",
+    "modern_statutory_deviation": "Gag orders, sealed witness identities, classified evidence ex parte, and hearing-impaired compulsory-process failures.",
+    "legal_standpoint_conflict": "Compulsory process is weakened when witnesses are unavailable due to administrative or security classification barriers.",
+    "learn_tags": ["webster-1913", "amendment-6", "counsel", "witness", "confront", "compulsory"]
+  },
+  {
+    "term": "assembly / petition / establishment / press / speech / religion",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "assembly... establishment of intercourse between Portugal and China in 1517... counsel... press... speech... religion.",
+    "constitutional_application": "First Amendment protects religious establishment noninterference, free exercise, speech, press, assembly, and petition.",
+    "modern_statutory_deviation": "Permit requirements for assembly, compelled speech frameworks, platform-carriage mandates, and foreign-influence registration regimes.",
+    "legal_standpoint_conflict": "Original assembly/petition meaning conflicts with modern time-place-manner restrictions and licensing regimes.",
+    "learn_tags": ["webster-1913", "amendment-1", "assembly", "petition", "establishment", "press", "speech", "religion"]
+  },
+  {
+    "term": "bear / arms",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "bear; to endure... arms of the wearer, and from this the name was given to the garment adopted for heralds.",
+    "constitutional_application": "Second Amendment protects individual right to keep and bear arms connected to militia security.",
+    "modern_statutory_deviation": "Assault-weapon bans, red-flag orders, and permit regimes reframe 'bear arms' as conditional privilege.",
+    "legal_standpoint_conflict": "Militia-trained-band meaning conflicts with modern permit-and-skill-test firearm licensing.",
+    "learn_tags": ["webster-1913", "amendment-2", "militia_fines", "loyalist_disarmament", "treason_disarmament"]
+  },
+  {
+    "term": "amendment",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "Amendment Act, modified by the Act of Uniformity Amendment Act, of 1872.",
+    "constitutional_application": "Article V amendment process requires supermajority state legislature or convention ratification.",
+    "modern_statutory_deviation": "Modern substantive due-process 'amendment by interpretation' functions as judicially created constitutional change.",
+    "legal_standpoint_conflict": "Judicial amendment of constitutional meaning bypasses Article V text and original public meaning.",
+    "learn_tags": ["webster-1913", "article-v", "amendment-process"]
+  },
+  {
+    "term": "legislature / executive / judicial / supreme / federal / state",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md",
+    "definition_excerpt": "legislature, organized with a separate legislature... executive; Supreme head, under God, of the spirituality and temporality... federal Union.",
+    "constitutional_application": "Separation of powers among legislature, executive, and judiciary; federalism balance between national and state governments.",
+    "modern_statutory_deviation": "Administrative state combines legislative, executive, and judicial functions in agencies.",
+    "legal_standpoint_conflict": "Nondelegation doctrine is asserted but rarely enforced; agency rulemaking is functionally legislation.",
+    "learn_tags": ["webster-1913", "separation-of-powers", "administrative_state_practice", "article-iii"]
+  },
+  {
+    "term": "citizenship / naturalization",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-2e70926e5b.md",
+    "definition_excerpt": "citizenship. / naturalization. Kent. Wharton.",
+    "constitutional_application": "Article I Section 8 gives Congress power to establish uniform naturalization rules; Fourteenth Amendment citizenship clause.",
+    "modern_statutory_deviction": "Birthright citizenship debates, state-level immigration enforcement, and administrative citizenship revocation proposals.",
+    "legal_standpoint_conflict": "State immigration enforcement conflicts with federal naturalization monopoly.",
+    "learn_tags": ["webster-1913", "amendment-14", "naturalization"]
+  },
+  {
+    "term": "jury / oath / affirmation / ratify / convention / emolument / treaty / pardon / reprieve / impeachment / levying",
+    "edition": "Webster Revised Unabridged, 1913",
+    "gutenberg_source_file": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-00e3e8e1b8.md;C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-2e70926e5b.md",
+    "definition_excerpt": "jury tales added from bystanders... oath to swear with solemnity... affirmation... ratify... convention; emolument; treaty; pardon; reprieve, adjudged to death; impeachment; levying.",
+    "constitutional_application": "Sixth Amendment jury trial, Article II pardon/reprieve, emoluments clause, treaty ratification, impeachment.",
+    "modern_statutory_deviation": "Summary judgment reduces jury role; foreign emoluments via business interests; treaty substitution via executive agreements; impeachment as political theater.",
+    "legal_standpoint_conflict": "Modern treaty-by-executive-agreement bypasses Senate ratification; jury trial is weakened by plea-bargaining prevalence.",
+    "learn_tags": ["webster-1913", "amendment-6", "article-ii", "emolument", "treaty", "impeachment"]
+  }
+]

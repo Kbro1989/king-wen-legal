@@ -1,0 +1,211 @@
+{
+  "status": "complete",
+  "artifact_contract_version": "1.0.0",
+  "fabrication_policy": "PROHIBITED",
+  "readout_name": "modern-legal-meaning",
+  "description": "Modern legal meaning readout for the same constitutional terms. Uses only statutory/administrative derivations from the constitutional text; no fabricated case law.",
+  "source_contract": "Modern usage is inferred from known statutory structures tied to each clause. If a term has contested modern meanings, the entry is marked circuit-split rather than collapsed to one invented answer.",
+  "entries": [
+    {
+      "term": "legislative",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 1"
+      ],
+      "modern_legal_meaning": "Legislative power is treated as delegable to agencies in many circuits; nondelegation doctrine is asserted but not uniformly enforced.",
+      "drift_note": "RED because the original meaning limits law-making to the legislature, while modern practice accepts broad delegation.",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "5th Cir.",
+        "D.C. Cir.",
+        "9th Cir."
+      ]
+    },
+    {
+      "term": "commerce",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 8"
+      ],
+      "modern_legal_meaning": "Commerce Clause interpreted to cover economic activity broadly, including intrastate activity with a substantial economic effect.",
+      "drift_note": "RED because original trade/exchange meaning has been expanded to all economic activity.",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "6th Cir.",
+        "11th Cir.",
+        "D.C. Cir."
+      ]
+    },
+    {
+      "term": "tax",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article I Section 9"
+      ],
+      "modern_legal_meaning": "Direct/indirect distinction survives in form, but 16th Amendment income tax and later administrative levies depart from apportionment requirement.",
+      "drift_note": "RED because original apportionment/uniformity structure is structurally altered.",
+      "circuit_status": "uniform",
+      "circuits": []
+    },
+    {
+      "term": "coin",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article I Section 10"
+      ],
+      "modern_legal_meaning": "Congress holds coinage power, but Federal Reserve Act delegates monetary policy to a quasi-private system; state-level coinage remains prohibited.",
+      "drift_note": "RED because original coin-only standard is structurally departed from.",
+      "circuit_status": "uniform",
+      "circuits": []
+    },
+    {
+      "term": "tender",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 10"
+      ],
+      "modern_legal_meaning": "States may not make anything but gold/silver tender for debts; federal fiat currency prevails under Supremacy Clause.",
+      "drift_note": "RED because state tender limits remain, but federal departure from original metallic baseline is accepted.",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "No binding published circuit authority"
+      ]
+    },
+    {
+      "term": "militia",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 8",
+        "Article II Section 2"
+      ],
+      "modern_legal_meaning": "National Guard operates under federal control; selectee service exists; citizen-militia concept is not functional.",
+      "drift_note": "RED because the organizational meaning has changed dramatically.",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "2nd Cir.",
+        "9th Cir.",
+        "6th Cir."
+      ]
+    },
+    {
+      "term": "attainder",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article I Section 10"
+      ],
+      "modern_legal_meaning": "Civil contempt, regulatory disqualification, and registration regimes function as punishment without criminal trial in some applications; exact constitutional boundary is contested.",
+      "drift_note": "RED because functional equivalents exist outside the original criminal-trial meaning.",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "9th Cir.",
+        "7th Cir.",
+        "D.C. Cir."
+      ]
+    },
+    {
+      "term": "money",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 8"
+      ],
+      "modern_legal_meaning": "Money includes Federal Reserve notes, electronic reserves, stablecoins, and CBDC proposals; 31 U.S.C. § 5102 makes FR notes legal tender.",
+      "drift_note": "RED because the original specie-based meaning is no longer binding in practice.",
+      "circuit_status": "uniform",
+      "circuits": []
+    },
+    {
+      "term": "writ",
+      "drift_classification": "RED",
+      "constitution_locations": [
+        "Article I Section 9"
+      ],
+      "modern_legal_meaning": "Administrative subpoenas, national security letters, geofence warrants, and FISA orders function as writ substitutes; judicial review is often delayed or secret.",
+      "drift_note": "RED because original judicial-writ process is bypassed in many administrative/surveillance contexts.",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "9th Cir.",
+        "2nd Cir.",
+        "D.C. Cir."
+      ]
+    },
+    {
+      "term": "treason",
+      "drift_classification": "ORANGE",
+      "constitution_locations": [
+        "Article III Section 3"
+      ],
+      "modern_legal_meaning": "Treason remains narrow in name, but functionally replaced by seditious conspiracy, material support, and espionage statutes with similar penalties.",
+      "drift_note": "ORANGE because the label changed while punishment structure remains adjacent.",
+      "circuit_status": "uniform",
+      "circuits": []
+    },
+    {
+      "term": "habeas corpus",
+      "drift_classification": "ORANGE",
+      "constitution_locations": [
+        "Article I Section 9"
+      ],
+      "modern_legal_meaning": "Habeas remains available, but military commissions, indefinite-detention statutes, and post-9/11 suspension debates narrow its practical scope.",
+      "drift_note": "ORANGE because the writ remains textually intact but exception mechanics are expanded.",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "D.C. Cir.",
+        "4th Cir.",
+        "9th Cir."
+      ]
+    },
+    {
+      "term": "ex post facto",
+      "drift_classification": "ORANGE",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article I Section 10"
+      ],
+      "modern_legal_meaning": "Criminal retroactivity is barred, but civil retroactive penalties, regulatory retroactivity, and SORNA-type application create contested gray zones.",
+      "drift_note": "ORANGE because civil/regulatory retroactivity is a live circuit split, not settled as forbidden.",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "6th Cir.",
+        "9th Cir.",
+        "11th Cir."
+      ]
+    },
+    {
+      "term": "contract",
+      "drift_classification": "ORANGE",
+      "constitution_locations": [
+        "Article I Section 10"
+      ],
+      "modern_legal_meaning": "Contract Clause limits state impairment, but emergency price controls, mortgage moratoria, consent decrees, and bankruptcy preemption narrow the field.",
+      "drift_note": "ORANGE because state impairment is not categorically barred in modern emergency or bankruptcy contexts.",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "9th Cir.",
+        "6th Cir.",
+        "3rd Cir."
+      ]
+    },
+    {
+      "term": "emolument",
+      "drift_classification": "ORANGE",
+      "constitution_locations": [
+        "Article I Section 9",
+        "Article II Section 1"
+      ],
+      "modern_legal_meaning": "Foreign emoluments through business interests and domestic emoluments through presidential properties are contested; OLC opinions narrow application.",
+      "drift_note": "ORANGE because scope is contested, not textually removed.",
+      "circuit_status": "circuit-split",
+      "circuits": [
+        "2nd Cir.",
+        "D.C. Cir.",
+        "4th Cir."
+      ]
+    }
+  ],
+  "parser_output": {
+    "right_readout": "Modern legal meaning assembled from statutory/administrative structures tied to each clause. Ratified amendments where relevant are included; unratified proposals are excluded."
+  }
+}

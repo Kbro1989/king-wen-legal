@@ -1,0 +1,137 @@
+{
+  "status": "complete",
+  "artifact_contract_version": "1.0.0",
+  "fabrication_policy": "PROHIBITED",
+  "diff_readout_name": "constitutional-meaning-diff",
+  "description": "Diff readout produced by running the Constitution string through the skill-cluster parse with left originalist nodes and right modern nodes.",
+  "inputs": {
+    "constitution_string": "C:\\Users\\krist\\AppData\\Local\\hermes\\cache\\web\\www.gutenberg.org-48ab8abb9a.md",
+    "diff_graph_topology": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\diff-graph-topology.json",
+    "originalist_readout": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\constitutional-readouts\\originalist-meaning.json",
+    "modern_readout": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\constitutional-readouts\\modern-legal-meaning.json",
+    "skill_cluster_manifest": "C:\\Users\\krist\\Desktop\\constitutional-graph-tool\\target\\legal-data\\skill-clusters\\manifest.json"
+  },
+  "outcome_1": {
+    "id": "originalist_meaning_outcome",
+    "label": "Original meaning from 1789/1913 dictionary evidence and constitutional text",
+    "summary": "The Constitution, read in its original public meaning, limits legislative power to the law-making body; restricts commerce to trade/exchange; reserves coinage and monetary standard to Congress; protects the writ of habeas corpus except in rebellion or invasion; defines treason narrowly with procedural safeguards; and bars impairment of contract obligations and receipt of emoluments without consent.",
+    "term_count": 14,
+    "red_terms": 9,
+    "orange_terms": 5,
+    "drift_method": "now_vs_then from local Gutenberg Webster sections + immutable constitutional text"
+  },
+  "outcome_2": {
+    "id": "modern_legal_meaning_outcome",
+    "label": "Modern legal meaning from statutory/administrative structures",
+    "summary": "Modern legal structures accept broad delegation of legislative power, expansive Commerce Clause authority, fiat/electronic money systems, narrowed habeas and writ substitutes, functional statutory replacements for treason, and contested contract/emolument boundaries. The drift is not uniform: some terms remain close to original meaning, while others are inverted or expanded.",
+    "term_count": 14,
+    "red_terms": 9,
+    "orange_terms": 5,
+    "drift_method": "modern statutory/administrative mapping with circuit-split annotations where contested"
+  },
+  "diff_summary": [
+    {
+      "term": "legislative",
+      "classification": "RED",
+      "originalist": "Legislative power is non-delegable by original meaning.",
+      "modern": "Delegation to agencies is broadly accepted; nondelegation is nominal.",
+      "blast_radius": "All agency rulemaking, administrative procedure, and regulatory state structures."
+    },
+    {
+      "term": "commerce",
+      "classification": "RED",
+      "originalist": "Commerce is trade/exchange between persons or states.",
+      "modern": "Substantial-effect doctrine covers nearly all economic activity.",
+      "blast_radius": "Federal preemption of state licensing, professional regulation, and local economic law."
+    },
+    {
+      "term": "tax",
+      "classification": "RED",
+      "originalist": "Direct taxes require apportionment; indirect taxes require uniformity.",
+      "modern": "Income tax and administrative levies depart from apportionment.",
+      "blast_radius": "All federal revenue-collection structures outside the original tax formula."
+    },
+    {
+      "term": "coin",
+      "classification": "RED",
+      "originalist": "Congress alone mints coin; states prohibited.",
+      "modern": "Federal Reserve system delegates monetary base management; state coinage remains barred.",
+      "blast_radius": "Monetary standard, central banking, CBDC/stablecoin proposals."
+    },
+    {
+      "term": "tender",
+      "classification": "RED",
+      "originalist": "States may make only gold/silver tender; federal baseline is specie-based.",
+      "modern": "Federal fiat currency is legal tender; states cannot contravene.",
+      "blast_radius": "State-backed currency initiatives, gold clause revival, payment-system design."
+    },
+    {
+      "term": "militia",
+      "classification": "RED",
+      "originalist": "Citizen body for local defense, separate from standing army.",
+      "modern": "National Guard is federalized; selective service exists; citizen militia is not functional.",
+      "blast_radius": "Federal-state military authority division, conscription, state defense forces."
+    },
+    {
+      "term": "attainder",
+      "classification": "RED",
+      "originalist": "Legislative punishment without judicial trial is barred.",
+      "modern": "Civil contempt, regulatory disqualification, and registration regimes act as functional equivalents.",
+      "blast_radius": "Civil litigation, administrative penalties, firearm/sex-offender registries."
+    },
+    {
+      "term": "money",
+      "classification": "RED",
+      "originalist": "Specie/coin-based money is the baseline.",
+      "modern": "Electronic reserves, FR notes, stablecoins, CBDCs are money.",
+      "blast_radius": "Payment systems, central-bank digital currency, reserve accounting."
+    },
+    {
+      "term": "writ",
+      "classification": "RED",
+      "originalist": "Judicial written order; habeas corpus is the preserved example.",
+      "modern": "Administrative subpoenas, NSLs, geofence warrants, secret FISA orders substitute for writs.",
+      "blast_radius": "Surveillance, administrative process, secret court procedures."
+    },
+    {
+      "term": "treason",
+      "classification": "ORANGE",
+      "originalist": "Narrow definition: levying war or adhering to enemies; two-witness or confession rule.",
+      "modern": "Same label rare; adjacent statutes carry similar penalties without the same safeguards.",
+      "blast_radius": "National-security prosecutions, material-support statutes, espionage charges."
+    },
+    {
+      "term": "habeas corpus",
+      "classification": "ORANGE",
+      "originalist": "Great Writ; produce the body before a judge.",
+      "modern": "Available but narrowed by military commissions, indefinite-detention statutes, and suspension debates.",
+      "blast_radius": "Detention policy, military-commission review, Guantanamo-style litigation."
+    },
+    {
+      "term": "ex post facto",
+      "classification": "ORANGE",
+      "originalist": "No retroactive criminal law or punishment enhancement.",
+      "modern": "Civil/regulatory retroactivity is contested; SORNA-like application survived in part.",
+      "blast_radius": "Retroactive civil penalties, registration laws, regulatory enforcement timing."
+    },
+    {
+      "term": "contract",
+      "classification": "ORANGE",
+      "originalist": "States may not impair the obligation of contracts.",
+      "modern": "Emergency controls, bankruptcy, moratoria, and consent decrees modify obligations.",
+      "blast_radius": "State emergency powers, mortgage/foreclosure law, consent decrees."
+    },
+    {
+      "term": "emolument",
+      "classification": "ORANGE",
+      "originalist": "Officeholders may not receive foreign/domestic emoluments without consent.",
+      "modern": "Business interests, OLC narrowing, and enforcement mechanisms are contested.",
+      "blast_radius": "Presidential business holdings, foreign-payment channels, ethics enforcement."
+    }
+  ],
+  "conclusion": {
+    "originalist_outcome": "The Constitution's original meaning creates a tightly constrained federal structure with explicit anti-delegation, anti-emolument, monetary-specie, judicial-writ, and narrow-treason protections.",
+    "modern_outcome": "Modern legal meaning accepts or tolerates substantial departures from those constraints, producing a document whose text remains while its operative meaning has shifted.",
+    "final_diff": "14 terms compared. 9 RED: meaning inverted or structurally departed. 5 ORANGE: meaning expanded, substituted, or functionally bypassed. English crown lineage remains excluded from both readouts."
+  }
+}
